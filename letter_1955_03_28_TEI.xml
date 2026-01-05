@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Επιστολή από Νίκο Καρύδη προς Αλέκο Πατσιφά</title>
+                <author>
+                    <persName>
+                        <forename>Νίκος</forename>
+                        <surname>Καρύδης</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
+                    <name>Claude (Anthropic AI)</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Ψηφιακή μεταγραφή για ερευνητικούς σκοπούς</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Αθήνα</settlement>
+                        <idno type="filename">1955-3-28_ΚΑΡΥΔΗΣ_ΝΙΚΟΣ___ΠΑΤΣΙΦΑΣ_ΑΛΕΚΟΣ.pdf</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Χειρόγραφη επιστολή σε επιστολόχαρτο της εκδοτικής εταιρίας «Ίκαρος»</summary>
+                        <textLang mainLang="el">Ελληνικά</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc material="paper">
+                                <support>Επιστολόχαρτο με προτυπωμένη επικεφαλίδα</support>
+                                <extent>1 φύλλο</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Χειρόγραφο κείμενο με μπλε μελάνι</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="hand1" scope="major" medium="blue_ink">
+                                Χειρόγραφο του αποστολέα
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl>
+                    <orgName>«Ίκαρος» Εκδοτική Εταιρία</orgName>
+                    <address>
+                        <street>Οδός Βουλής 4</street>
+                        <settlement>Αθήνα</settlement>
+                    </address>
+                    <phone>25-152</phone>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Νίκος Καρύδης</persName>
+                    <orgName>«Ίκαρος» Εκδοτική Εταιρία</orgName>
+                    <placeName>Αθήνα</placeName>
+                    <date when="1955-03-28">28 Μαρτίου 1955</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Αλέκος Πατσιφάς</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="el">Ελληνικά</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Η μεταγραφή ακολουθεί την ορθογραφία του πρωτοτύπου. 
+                Δυσανάγνωστα σημεία σημειώνονται με το στοιχείο unclear.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="1955-3-28_ΚΑΡΥΔΗΣ_ΝΙΚΟΣ___ΠΑΤΣΙΦΑΣ_ΑΛΕΚΟΣ.pdf"/>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="letter">
+                <!-- Προτυπωμένη επικεφαλίδα -->
+                <head>
+                    <orgName>«ΙΚΑΡΟΣ» ΕΚΔΟΤΙΚΗ ΕΤΑΙΡΙΑ</orgName>
+                    <lb/>
+                    <address>
+                        <addrLine>ΟΔΟΣ ΒΟΥΛΗΣ 4 • ΑΘΗΝΑ • ΤΗΛ. 25-152</addrLine>
+                    </address>
+                </head>
+                
+                <!-- Χειρόγραφο κείμενο -->
+                <opener>
+                    <salute>Αγαπητέ <persName>Νίνο</persName>,</salute>
+                </opener>
+                
+                <p>
+                    <lb/>Εύγε Έρωος!
+                    <lb/>Και είναι και ωραίο
+                    <lb/>τόμος!
+                    <lb/>Ή ορέξη να <unclear reason="illegible" cert="medium">έμψυχονά</unclear>
+                    <lb/><unclear reason="illegible" cert="low">καντί</unclear> εδώ χρόνια και
+                    <lb/>να <unclear reason="illegible" cert="medium">μπείλαι</unclear> <unclear reason="illegible" cert="low">μεθ' υμεί</unclear>,
+                    <lb/><quote>«όπως αξίζει <unclear reason="illegible" cert="medium">ον</unclear> κόσο...»</quote>
+                </p>
+                
+                <closer>
+                    <salute>Στ' <unclear reason="illegible" cert="medium">ασοφρύδια</unclear></salute>
+                    <lb/>
+                    <signed>
+                        <persName>
+                            <unclear reason="illegible" cert="medium">Ζήσης</unclear> 
+                            <surname>Νίκου</surname>
+                        </persName>
+                    </signed>
+                </closer>
+                
+                <dateline>
+                    <date when="1955-03-28">28/Μαρτίω/55</date>
+                </dateline>
+            </div>
+        </body>
+    </text>
+</TEI>
