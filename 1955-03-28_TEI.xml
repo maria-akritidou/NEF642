@@ -51,8 +51,9 @@
                     <address>
                         <street>Οδός Βουλής 4</street>
                         <settlement>Αθήνα</settlement>
+                        <phone>25-152</phone>
                     </address>
-                    <phone>25-152</phone>
+                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,7 +82,7 @@
     </teiHeader>
     
     <facsimile>
-        <graphic url="1955-3-28_ΚΑΡΥΔΗΣ_ΝΙΚΟΣ___ΠΑΤΣΙΦΑΣ_ΑΛΕΚΟΣ.pdf"/>
+        <graphic url="1955-3-28_ΚΑΡΥΔΗΣ ΝΙΚΟΣ + ΠΑΤΣΙΦΑΣ ΑΛΕΚΟΣ.jpg"/>
     </facsimile>
     
     <text>
