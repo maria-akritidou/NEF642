@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -50,14 +48,14 @@
                     <orgName>«Ίκαρος» Εκδοτική Εταιρία</orgName>
                     <address>
                         <street>Οδός Βουλής 4</street>
-                        <settlement>Αθήνα</settlement>
-                        <phone>25-152</phone>
+                        <settlement>Αθήνα 25-152</settlement>
+                       
                     </address>
                     
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName>Νίκος Καρύδης</persName>
@@ -82,7 +80,7 @@
     </teiHeader>
     
     <facsimile>
-        <graphic url="1955-3-28_ΚΑΡΥΔΗΣ ΝΙΚΟΣ + ΠΑΤΣΙΦΑΣ ΑΛΕΚΟΣ.jpg"/>
+        <graphic url="https://github.com/maria-akritidou/NEF642/blob/main/1955-3-28_%CE%9A%CE%91%CE%A1%CE%A5%CE%94%CE%97%CE%A3%20%CE%9D%CE%99%CE%9A%CE%9F%CE%A3%20%2B%20%CE%A0%CE%91%CE%A4%CE%A3%CE%99%CE%A6%CE%91%CE%A3%20%CE%91%CE%9B%CE%95%CE%9A%CE%9F%CE%A3.jpg"/>
     </facsimile>
     
     <text>
