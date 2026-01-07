@@ -202,9 +202,11 @@
                 <dateline>
                     <date when="1955-03-28">28/Μαρτίω/55</date>
                 </dateline>
-                <note>Νίκος: Νίκος Καρύδης</note>
             </div>
-        
+        <div>
+                            <note>Νίκος: Νίκος Καρύδης</note>
+
+            </div>
         </body>
     </text>
 </TEI>
