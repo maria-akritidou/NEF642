@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Επιστολή από Νίκο Καρύδη προς Αλέκο Πατσιφά</title>
@@ -78,15 +80,12 @@
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
-    
-    <facsimile>
-        <graphic url="https://github.com/maria-akritidou/NEF642/blob/main/1955-3-28_%CE%9A%CE%91%CE%A1%CE%A5%CE%94%CE%97%CE%A3%20%CE%9D%CE%99%CE%9A%CE%9F%CE%A3%20%2B%20%CE%A0%CE%91%CE%A4%CE%A3%CE%99%CE%A6%CE%91%CE%A3%20%CE%91%CE%9B%CE%95%CE%9A%CE%9F%CE%A3.jpg"/>
-    </facsimile>
+
     
     <text>
         <body>
             <div type="letter">
-                <!-- Προτυπωμένη επικεφαλίδα -->
+             
                 <head>
                     <orgName>«ΙΚΑΡΟΣ» ΕΚΔΟΤΙΚΗ ΕΤΑΙΡΙΑ</orgName>
                     <lb/>
@@ -95,7 +94,7 @@
                     </address>
                 </head>
                 
-                <!-- Χειρόγραφο κείμενο -->
+                
                 <opener>
                     <salute>Αγαπητέ <persName>Νίνο</persName>,</salute>
                 </opener>
