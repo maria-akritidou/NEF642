@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	           
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Επιστολή</title>
+                <author>
+                    <persName>
+                        <forename></forename>
+                        <surname></surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
+                    <name></name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Ψηφιακή μεταγραφή για ερευνητικούς σκοπούς</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Αθήνα</settlement>
+                        <idno type="filename"></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary></summary>
+                        <textLang mainLang="el">Ελληνικά</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc material="paper">
+                                <support></support>
+                                <extent>1 φύλλο</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Χειρόγραφο κείμενο με μπλε μελάνι</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="hand1" scope="major" medium="blue_ink">
+                                Χειρόγραφο του αποστολέα
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl>
+                    <orgName></orgName>
+                    
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName></persName>
+                    <placeName>Αθήνα</placeName>
+                    <date when="1955-02-16"></date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName></persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="el">Ελληνικά</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Η μεταγραφή είναι χρηστική, σε μονοτονικό και με εκσυγχρονισμένη ορθογραφία.
+                    Δυσανάγνωστα σημεία σημειώνονται με το στοιχείο unclear.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter">
+                
+                <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-3-31_%CE%91%CE%9B%CE%95%CE%9E%CE%99%CE%9F%CE%A5%20%CE%9B%CE%95%CE%A5%CE%A4%CE%95%CE%A1%CE%97%CE%A3_Page_1.jpg?raw=true"/>
+                
+                <p><placeName>Ηράκλειο</placeName>, 31 του Μάρτη, 1956
+                    
+                    Φίλε  […]   <persName>Λίνε Πολίτη</persName>,
+                    
+                    Γράψατε και δημοσιεύσατε πως «κυριολεκτικά παραμόρφωσα τη Βοσκοπούλα». Μα υπάρχει Βοσκοπούλα; Υπάρχει μόνο το κείμενο, που δημοσίευσε ένας ακατέργαστος και μισοαγράμματος Κρητικός από τον <placeName>Αποκόρωνα</placeName>, ο <persName>Δριμυτινός</persName>. Τούτος εξέδωσε το ποίημα από μνήμης, χωρίς ούτε να το θυμάται καλά, ούτε να το αισθάνεται ανάλογα με την αξία του. Έχουμε δηλαδή μπροστά μας ένα κείμενο «παραμορφωμένο». Τα λέω στην εισαγωγή μου και τα ξεκαθαρίζω. Μα δεν τα διαβάσατε φαίνεται ή δεν τα προσέξατε. Δεν παραμόρφωσα λοιπόν, όπως ισχυρίζεστε. Προσπάθησα να ξεπαραμορφώσω.
+                    «Είναι κρίμα κι άδικο, παράπονο μεγάλο» ένας σίγουρα ικανός και τίμιος επιστήμονας, όπως εσείς, να πέφτει σε τόσο χοντρά λάθη αντίκρυ στην επιστήμη του, κι αντίκρυ στους αθόρυβους συνανθρώπους του. 
+                    Δε μου αρέσουν οι δημόσιες συζητήσεις, που μου θυμίζουν τα «μικρά   <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-3-31_%CE%91%CE%9B%CE%95%CE%9E%CE%99%CE%9F%CE%A5%20%CE%9B%CE%95%CE%A5%CE%A4%CE%95%CE%A1%CE%97%CE%A3_Page_2.jpg?raw=true"/> μυστικά» της Διάπλασης. Έτσι δεν θα σας απαντήσω δημόσια. Περιμένω όμως να διευκρινίσετε εσείς δημόσια το ζήτημα, για ν’ αποκατασταθεί η επιστημονική αλήθεια σχετικά με τη Βοσκοπούλα, αλήθεια που την κακοποιήσατε χωρίς κανένα λόγο.
+                    
+                    
+                    Με τιμή,
+                    <persName>Λευτέρης Αλεξίου</persName>
+                    
+                </p> 
+            </div>
+            
+        </body>
+    </text>
+</TEI>

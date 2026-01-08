@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	           
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Επιστολή</title>
+                <author>
+                    <persName>
+                        <forename></forename>
+                        <surname></surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
+                    <name></name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Ψηφιακή μεταγραφή για ερευνητικούς σκοπούς</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Αθήνα</settlement>
+                        <idno type="filename"></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary></summary>
+                        <textLang mainLang="el">Ελληνικά</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc material="paper">
+                                <support></support>
+                                <extent>1 φύλλο</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Χειρόγραφο κείμενο με μπλε μελάνι</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="hand1" scope="major" medium="blue_ink">
+                                Χειρόγραφο του αποστολέα
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl>
+                    <orgName></orgName>
+                    
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName></persName>
+                    <placeName>Αθήνα</placeName>
+                    <date when="1955-02-16"></date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName></persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="el">Ελληνικά</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Η μεταγραφή είναι χρηστική, σε μονοτονικό και με εκσυγχρονισμένη ορθογραφία.
+                    Δυσανάγνωστα σημεία σημειώνονται με το στοιχείο unclear.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter">
+                
+                <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_1.jpg?raw=true"/>
+                
+                <p>                                                                                             18 Δεκεμβρίου 1956
+                    Αγαπητέ <persName>Λίνο</persName>,
+                    
+                    Κρούετε καὶ ἀνοιγήσεται ὑμῖν! Τα σημεία που θέλω είναι τα εξής: 1. …τὸν εἰς ταῖς αἰσθήσεσιν ἀόρατον μονάρχη 2. Ὁ μονάρχης ὅπου μένει κρυμμένος γιὰ ταῖς αἰσθήσεις καὶ γνωρίζεται μόνον ἀπὸ τὸ πνεῦμα μέσα εἰς τὸ ὁποῖον ἐγεννήθηκε, εἶναι ἔξω ἀπὸ τὴν στριφφεία τὰς καιρούς 3. … το Κοινό και το Κύριο… 4. …  οἱ νόες οἱ γυμνασμένοι καὶ βαθύς 5. …το νόημα, απο το οποίο πηγάζει η Ποίηση, και το οποίο αυτή υπηρετεί… 6. …τὸν ὑποστατικὸν ἴσκιον… 7. Τοιουτοτρόπως μεταφυσική ἔγινε φυσικὴ 8. …ἀτομικὸ σύμφωνο μὲ τὸ πνεῦμα τῆς γενικότητος ποὺ τὸ ἐγέννησε  <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_2.jpg?raw=true"/>9. …ὁ σιδερένιος καὶ ἀσύντριφτος κύκλος… 10. …οἱ μεγάλες οὐσίες…
+                    Αυτά είναι τα δέκα σημεία που θα ήθελα. Σου γράφω ακριβείς τα κομμάτια των φράσεων που χρειάζομαι αρχίζοντας «κατὰ φύσιν πρῶτον ἀπὸ τῶν πρώτων» και προχωρώντας δυστυχώς καμία έκδοση δεν έχει αρίθμηση (για να μη στα ζάλιζα) ώστε να σου σημειώνω παράγραφο ή στίχο. 
+                    Γνωρίζοντας τα γιγνόμενα “ἤθη” του τόπου μας, θεωρώ υποχρεωμένος να σας γνωρίσω τα ακόλουθα. Η δουλειά που κάνω είναι άσχετη με το <persName>Σολωμό</persName> . Η δημοσίευση της δε θα γίνει γρήγορα (ποτέ πριν απο το 1958). Πρωτού γίνει (δημοσίευση) θα σας γράψω να μας πεις αν θέλεις να αναφέρω —με τις ευχαριστίες μας— από όπου βρήκα έστω και τα λίγα αυτά “κομμάτια” των σολωμικών φράσεων, ή αν θέλεις να αποσιωπήσω εντελώς το ζήτημα μη αποκαλύπτοντας τίποτα σε κανένα. Τέλος για να μη πολυλογούμε, είμαι, όπως καταλαβαίνεις, στην απόλυτη διάθεσή σου, γύρω στην ακολουθία γραμμή.
+                    Το να σου πω ευχαριστώ, είναι λίγο. Θα σας είμαι αληθινά υποχρεωμένος <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_3.jpg?raw=true"/>και όχι για λογαριασμό ατομικό μου (αυτό δε θα είχε αξία), αλλά μόνο αυτή η βοήθειά σου —σχετικά με το ζήτημα των σολωμικών σημειωμάτων— με βγάζει λίγο από την ντροπή που αισθάνομαι να μιλάμε σήμερα “κρυφά” για τον<persName> Σολωμό</persName>. 
+                    
+                    Σου εύχομαι καλές γιορτές
+                    <persName>Ζ. Λορεντζάτος</persName>
+                    <placeName>Λεβίδου 23</placeName> 
+                    <placeName>Κηφισιά</placeName> στην <placeName>Έπαδα</placeName>
+                    
+                </p> 
+            </div>
+            
+        </body>
+    </text>
+</TEI>

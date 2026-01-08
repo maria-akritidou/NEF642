@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	           
-            <teiHeader>
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Επιστολή</title>
@@ -50,10 +50,10 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
- 
-                <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
-                
-                <profileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+        
+        <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName></persName>
@@ -71,32 +71,23 @@
         <encodingDesc>
             <editorialDecl>
                 <p>Η μεταγραφή είναι χρηστική, σε μονοτονικό και με εκσυγχρονισμένη ορθογραφία.
-                Δυσανάγνωστα σημεία σημειώνονται με το στοιχείο unclear.</p>
+                    Δυσανάγνωστα σημεία σημειώνονται με το στοιχείο unclear.</p>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
-
+    
     
     <text>
         <body>
-          
+            <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1955-2-16_%CE%9A%CE%9F%CE%A5%CE%A1%CE%9D%CE%9F%CE%A5%CE%A4%CE%9F%CE%A3.jpg?raw=true"/>
             <div type="letter">
-           
-                <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1955-2-16_%CE%9A%CE%9F%CE%A5%CE%A1%CE%9D%CE%9F%CE%A5%CE%A4%CE%9F%CE%A3.jpg?raw=true"/>
                 
-               <p><placeName>Αθήνα</placeName> 16 Φεβρουαρίου 1955
-                        Αγαπητέ μου κ. <persName>Πολίτη</persName>,
-                        Σας χαιρετώ.
-                        Με τον φίλο κ.<persName>Τσοπανάκη</persName> σας έστειλα πριν από κάμποσον καιρό τη μελέτη μου για τον <persName>Μανολάκη</persName>, όπως είχαμε συνεννοηθεί. Από ένα γράμμα, που σε τούτο το μεταξύ μου έγραψε ο κ. <persName>Αγαπητός</persName>, έμαθα πως η μελέτη μου αυτή πέρασε ασφαλώς στα χέρια σας.
-                        Πολύ σας παρακαλώ λοιπόν και πάλι, να κάμετε τον κόπο να την ιδείτε και να μου σημειώσετε τις όποιες παρατηρήσεις σας. Ξέρω βέβαια πως σας βάζω σ’έναν αξιόλογο κόπο, αλλά στις πολλές σας απασχολήσεις η μια αυτή ελπίζω να μην είναι η αιτία για να ξεχειλίσει το ποτήρι.
-                        Τα σχετικά με την έκδοση του <persName>Σολωμού</persName> απ’την Ακαδημία, θα σας τα έγραψε ο κ. <persName>Κουγέας</persName>. Τρεις οι υπέρ… εναντίον του… σύμπαντος! Μη χειρότερα. (Και δια μυστικής μάλιστα ψηφοφορίας!).
-                        Τους χαιρετισμούς μου στα παιδιά σας και στους φίλους.
-                        Με αγάπη
-                        <persName>Κουρνούτος</persName>
-                        <placeName>Μουρούζη</placeName> 10
-                        </p> 
+                
+                
+                <p>
+                </p> 
             </div>
-      
+            
         </body>
     </text>
 </TEI>
