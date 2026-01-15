@@ -212,6 +212,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?work_annotation_20260115153332188",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:33:32.188Z",
+	"dcterms:modified": "2026-01-15T13:33:32.188Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/despoinabeidari2003-star",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Despoina Beidari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?work_annotation_20260115153332188#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?work_annotation_20260115153332188#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/title[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q2420051",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -246,7 +325,7 @@
                 <opener><dateline>Εν <placeName>Βενετία</placeName> τη <date>14. 6. 1955</date></dateline>
                     
                     <salute>Φίλε κ. <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" role="edt" type="real">Πολίτη</persName></persName>,</salute></opener>
-                    <p>Εξαπέλυσα σήμερον διά της εφημ. «<title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000" level="j">Καθημερινή</title>» μίαν «ατομικήν βόμβαν» η οποία δεν αμφιβάλλω ότι θα προκαλέσει σάλον και αναστάτωσην εις όλους υμάς που ασχολείσθε με τον «Ερωτόκριτον» του <persName>Βιντζέτζου Κορνάρου</persName>, ο οποίος τον έγραψε έναν αιώνα πρωτύτερα από ό,τι γενικώς πιστεύεται.</p>
+                    <p>Εξαπέλυσα σήμερον διά της εφημ. «<title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000" level="j">Καθημερινή</title>» μίαν «ατομικήν βόμβαν» η οποία δεν αμφιβάλλω ότι θα προκαλέσει σάλον και αναστάτωσην εις όλους υμάς που ασχολείσθε με τον «<title key="Erotokritos" ref="http://www.wikidata.org/entity/Q2420051" level="m">Ερωτόκριτον</title>» του <persName>Βιντζέτζου Κορνάρου</persName>, ο οποίος τον έγραψε έναν αιώνα πρωτύτερα από ό,τι γενικώς πιστεύεται.</p>
                     <p>Και τι είναι η «ατομική βόμβα»; Είναι πωλητήριον συμβόλαιον εις περγαμηνή, καμωμένο την <date>16η Ιουλίου του 1561</date> στον <placeName>Χάνδακα</placeName>, από τον συμ/φον [Μεριανή;] [λαγινόν;] με πωλητή τον <persName>Βιτζέντζον Κορνάρον</persName> του ποτέ ευγενούς άρχοντος <persName>Ανδρέου</persName>, ο οποίος επώλησεν εις έναν μαστραντώνην <persName>Μαραβενίαν</persName> του
                     <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1955-6-14_%CE%9C%CE%95%CE%A1%CE%A4%CE%96%CE%99%CE%9F%CE%A3_Page_2.jpg?raw=true"/>
                     ποτέ μπερνάρδου, ένα διώροφον σπίτι του εις το <placeName>Kάστρον του Χάνδακος</placeName> και ένα μαγαζί.</p>
