@@ -371,6 +371,87 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?place_annotation_20260115154638320",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:46:38.320Z",
+	"dcterms:modified": "2026-01-15T13:46:38.320Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/dimitrakofi-bit",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dimitra Kofidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?place_annotation_20260115154638320#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?place_annotation_20260115154638320#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/264371",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -403,7 +484,7 @@
                 
                 <p>
                     Φαρμάκη 4β
-                    Πλάκα- Αθήνα
+                    Πλάκα- <placeName key="Athens" ref="https://sws.geonames.org/264371" cert="high">Αθήνα<precision match="@ref" precision="high"/></placeName>
                     26 Μαΐου 1955</p><p>                    
                    <opener> Αγαπητέ μου Κύριε <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Πολίτη</persName></persName>,</opener>
 </p><p>                    Σας γράφω βιαστικά, μέσα στην παραζάλη των εξετάσεων του Ι.Κ.Υ. , για να σας ευχαριστήσω πρώτα-πρώτα για την ευγενική σας προσφορά της Βιβλιογραφίας· την έλαβα λίγες μέρες πριν αρχίσει η κατάσταση πολιορκίας, κι έτσι μπόρεσα να την φυλλομετρήσω προσεχτικά- προς μεγάλη μου ωφέλεια και απόλαυση. Συλλογιέμαι με δέος πόσον κόπο σας απαίτησε το κρισάρισμα τόσου υλικού και η συμπύκνωση των κρίσεών σας για το κάθε λήμμα, και τελικά η ισορρόπηση του όλου πράγματος. Μακάρι η τόσο πολύτιμη αυτή εργασία να μπορέσει να συνεχιστεί για πολλά χρόνια και στο ίδιο πάντα επίπεδο. Επιτρέψτε μου, για μικρό αντίδωρο, να σας προσφέρω το τεύχος της Rivista di Critica- στα χέρια σας, θα πιάσει πολύ περισσότερον τόπο παρά στα δικά μου.</p><p>                    Να με συμπαθάτε για το μεγάλο αλληλογραφικό κενό: χώρεσαν μέσα σ’ αυτό τόσα! Αρκούμαι ν’ αναφέρω την γέννηση του γιού μας, του Δημήτρη, και την έκδοση του Β’ τόμου του <persName><persName key="Solōmós, Dionýsios, 1798-1857" ref="http://viaf.org/viaf/17235346">Σολωμού</persName></persName> σας- αμφότεροι, μια χαρά! Αναρωτιέμαι αν θάταν δυνατό, στον Γ’ πιά τόμο, να συμπληρωθεί ο Α’, τώρα που (αν δεν κάνω λάθος) σας είναι προσιτά όλα τα χειρόγραφα. Από μια επιπόλαια ματιά που έριξα στον τόμο <persName><persName key="Tōmadákīs, Nikólaos V., 1907-1993" ref="http://viaf.org/viaf/213149066579065600000">Τωμαδάκη</persName></persName>- Βασικής, είδα πως αποτελεί την αντάξια τελεία και παύλα μιας υπόθεσης που καλύτερα θάταν να μην είχε αρχίσει ποτέ…
