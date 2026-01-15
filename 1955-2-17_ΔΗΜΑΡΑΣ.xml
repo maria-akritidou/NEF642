@@ -1008,6 +1008,245 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?person_annotation_20260115154438988",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:44:38.988Z",
+	"dcterms:modified": "2026-01-15T13:44:38.988Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleneparada-png",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleni Parada"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?person_annotation_20260115154438988#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?person_annotation_20260115154438988#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/postscript/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/46879131",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?place_annotation_20260115154554954",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:45:54.954Z",
+	"dcterms:modified": "2026-01-15T13:45:54.954Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleneparada-png",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleni Parada"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?place_annotation_20260115154554954#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?place_annotation_20260115154554954#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/734077",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?organization_annotation_20260115154618571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:46:18.571Z",
+	"dcterms:modified": "2026-01-15T13:46:18.571Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eleneparada-png",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleni Parada"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?organization_annotation_20260115154618571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-2-17_ΔΗΜΑΡΑΣ.xml?organization_annotation_20260115154618571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q414403",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -1041,13 +1280,13 @@
                 <opener>
                 <placeName>Μουρούζη 10</placeName> </opener><opener><date>17.2.55</date>
                 </opener>
-                    <p>Πολύ σε επεθύμησα, <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" role="edt" type="real"><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Λίνο</persName></persName></persName> μου, και αυτόν τον καιρό έτυχε να μην αλληλογραφήσουμε καν. Τώρα σου γράφω για δουλειά. Αλλά πριν απ’αυτό, πες μου, γνωρίζεις ότι η τάξη της <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403" cert="high"><orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403">Ακαδημίας</orgName></orgName> απέρριψε δια μυστικής ψηφοφορίας την πρότασή σου για την έκδοση του <persName><persName key="Dionysios Solomos" ref="http://www.wikidata.org/entity/Q166172" cert="high" type="real">Σολωμού</persName></persName>; Γνωρίζεις ακόμη ότι, παρόντων πάντως <persName><persName key="Konstantinos Amantos" ref="http://www.wikidata.org/entity/Q12879610" cert="high" type="real">Αμάντου</persName></persName>, <persName><persName key="Kougéas, Sokrátīs V. 1877-1966" ref="http://viaf.org/viaf/122066521">Κουγέα</persName></persName>, <persName><persName key="Kostas Romaios" ref="http://www.wikidata.org/entity/Q28973751" cert="high" type="real">Ρωμαίου</persName></persName>, <persName><persName><persName cert="high" type="real"><persName><persName cert="high" type="real">Καλλιτσουνάκη</persName></persName></persName></persName></persName>, <persName><persName key="Anastasios Orlandos" ref="http://www.wikidata.org/entity/Q12270206">Ορλάνδου</persName></persName>, η πρότασή σου συνεκέντρωσε τρεις ψήφους; Για φαντάσου, μυστική ψηφοφορία για θέμα επιστημονικό· αναρωτιέται κανείς αν θα μπορέσουμε ποτέ να ανεβούμε, τόσο χαμηλά που έχουμε πέσει. Και τις επιστολές του <persName><persName key="Adamantios Korais" ref="http://www.wikidata.org/entity/Q319635">Κοραή</persName></persName> δεν θα τις εκδόσει, ώστε το θέμα μένει ανοιχτό· μπορεί καμμιά ώρα να το κουβεντιάσουμε, δίνοντας συνέχεια σε όσα ελέγαμε σχετικά τον Νοέμβριο στην <placeName>Θεσσαλονίκη</placeName>· και για το δικό μου το θέμα ελέχθηκαν ανοησίες μεγάλες, αλλά δεν εχρειάσθηκε να φθάσουν σε μυστική ψηφοφορία, γιατί υπήρχε η διέξοδος της οικονομικής αδυναμίας. Τώρα περιμένω γράμμα τους όπου θα με ρωτούν τι εννοώ ηθική ενίσχυση (ή κάτι τέτοιο: δεν θυμούμαι ποιό αφηρημένο είχα βάλει, και δεν έχω εδώ το γράμμα μου). Ο <persName><persName cert="high" type="real">Καλλιτσουνάκης</persName></persName> εκατάλαβε επιτροπή, άλλοι άλλα· θα τους εξηγήσω ότι θέλω να μου επιτρέπουν να κάνω την αντιβολή των δοκιμίων με όσα πρωτότυπα έχουν στην Ακαδημία. Αυτό δεν το εσκέφθηκαν.
+                    <p>Πολύ σε επεθύμησα, <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" role="edt" type="real"><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Λίνο</persName></persName></persName> μου, και αυτόν τον καιρό έτυχε να μην αλληλογραφήσουμε καν. Τώρα σου γράφω για δουλειά. Αλλά πριν απ’αυτό, πες μου, γνωρίζεις ότι η τάξη της <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403" cert="high"><orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403">Ακαδημίας</orgName></orgName> απέρριψε δια μυστικής ψηφοφορίας την πρότασή σου για την έκδοση του <persName><persName key="Dionysios Solomos" ref="http://www.wikidata.org/entity/Q166172" cert="high" type="real">Σολωμού</persName></persName>; Γνωρίζεις ακόμη ότι, παρόντων πάντως <persName><persName key="Konstantinos Amantos" ref="http://www.wikidata.org/entity/Q12879610" cert="high" type="real">Αμάντου</persName></persName>, <persName><persName key="Kougéas, Sokrátīs V. 1877-1966" ref="http://viaf.org/viaf/122066521">Κουγέα</persName></persName>, <persName><persName key="Kostas Romaios" ref="http://www.wikidata.org/entity/Q28973751" cert="high" type="real">Ρωμαίου</persName></persName>, <persName><persName><persName cert="high" type="real"><persName><persName cert="high" type="real">Καλλιτσουνάκη</persName></persName></persName></persName></persName>, <persName><persName key="Anastasios Orlandos" ref="http://www.wikidata.org/entity/Q12270206">Ορλάνδου</persName></persName>, η πρότασή σου συνεκέντρωσε τρεις ψήφους; Για φαντάσου, μυστική ψηφοφορία για θέμα επιστημονικό· αναρωτιέται κανείς αν θα μπορέσουμε ποτέ να ανεβούμε, τόσο χαμηλά που έχουμε πέσει. Και τις επιστολές του <persName><persName key="Adamantios Korais" ref="http://www.wikidata.org/entity/Q319635">Κοραή</persName></persName> δεν θα τις εκδόσει, ώστε το θέμα μένει ανοιχτό· μπορεί καμμιά ώρα να το κουβεντιάσουμε, δίνοντας συνέχεια σε όσα ελέγαμε σχετικά τον Νοέμβριο στην <placeName><placeName key="Thessaloníki" ref="https://sws.geonames.org/734077">Θεσσαλονίκη<precision match="@ref" precision="high"/></placeName></placeName>· και για το δικό μου το θέμα ελέχθηκαν ανοησίες μεγάλες, αλλά δεν εχρειάσθηκε να φθάσουν σε μυστική ψηφοφορία, γιατί υπήρχε η διέξοδος της οικονομικής αδυναμίας. Τώρα περιμένω γράμμα τους όπου θα με ρωτούν τι εννοώ ηθική ενίσχυση (ή κάτι τέτοιο: δεν θυμούμαι ποιό αφηρημένο είχα βάλει, και δεν έχω εδώ το γράμμα μου). Ο <persName><persName cert="high" type="real">Καλλιτσουνάκης</persName></persName> εκατάλαβε επιτροπή, άλλοι άλλα· θα τους εξηγήσω ότι θέλω να μου επιτρέπουν να κάνω την αντιβολή των δοκιμίων με όσα πρωτότυπα έχουν στην <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403" cert="high">Ακαδημία</orgName>. Αυτό δεν το εσκέφθηκαν.
 </p><p>                    Ταύτα. Με έπιασε φλυαρία: είμαι μόνος στο σπίτι, και ετελείωσα την δουλειά που είναι η αφορμή της επιστολής μου. Επιγράφεται “ Η σχολή του <placeName>Αγίου Όρους</placeName> στα 1800”. 27 σελίδες γραφομηχανής σαν και αυτήν που κρατείς στο χέρι σου. Ένα πολύ σπουδαίο ανέκδοτο κείμενο (15 σελίδες) σχολιασμένο. <placeName>Άγιον Όρος</placeName>, <persName><persName key="Adamantios Korais" ref="http://www.wikidata.org/entity/Q319635">Κοραής</persName></persName> (φυσικά), ιδανικό θέμα για τον τόμο <persName>Κουγέα</persName>· ακόμη και ο μακαρίτης <persName>Σωτήρης Κουγιάς</persName> περνάει από το κείμενο και από τα σχόλια. Μα θα βγει ο τόμος; ή να το βάλουμε στα “Ελληνικά”, όπου έχω πολλήν επιθυμία να συνεργασθώ, όπως σου έλεγα και όχι με βιβλιοκρισίες μόνο; Γράψε μου. Όσο εξαρτάται από μένα, βλέπεις, πάντως το προορίζω για τον βορρά. Είναι, όπως το λέτε εσείς οι γερμανομαθείς DRUCKFERTIG.
                     <closer>Με αγάπη
                     <persName><persName key="Dīmarás, Kōnstantínos Th 1904-1992" ref="http://viaf.org/viaf/110457098" cert="high" type="real">Δημαράς</persName></persName> 
                     </closer>
 </p>
-<postscript>                    Υ.Γ. Υπάρχει στο ντουλάπι μου ένα σώμα της γραμματολογίας μου για σένα. Επερίμενα να βγουν οι σημειώσεις - που θα αποτελέσουν χωριστό τομίδιο- για να σου το δώσω. Τώρα που αργεί έτσι, δεν ξέρω τι να κάνω. Σημείωσε ότι είναι περίπου άχρηστο χωρίς ευρετήριο. Στον <persName>Καψωμένο</persName> εχρωστούσα ένα αντίτυπο και του το έστειλα, γιατί δεν είχε την πρώτη έκδοση. Όλο προβλήματα γεννιούνται. Θα σου το στείλω κι εσένα να τελειώνει· αλλά ούτε να βιβλιοδετηθεί μπορεί έτσι μισό που είναι, ούτε τίποτε. Θα το στείλω και του <persName>Κριαρά</persName>.   
+<postscript>                    Υ.Γ. Υπάρχει στο ντουλάπι μου ένα σώμα της γραμματολογίας μου για σένα. Επερίμενα να βγουν οι σημειώσεις - που θα αποτελέσουν χωριστό τομίδιο- για να σου το δώσω. Τώρα που αργεί έτσι, δεν ξέρω τι να κάνω. Σημείωσε ότι είναι περίπου άχρηστο χωρίς ευρετήριο. Στον <persName>Καψωμένο</persName> εχρωστούσα ένα αντίτυπο και του το έστειλα, γιατί δεν είχε την πρώτη έκδοση. Όλο προβλήματα γεννιούνται. Θα σου το στείλω κι εσένα να τελειώνει· αλλά ούτε να βιβλιοδετηθεί μπορεί έτσι μισό που είναι, ούτε τίποτε. Θα το στείλω και του <persName><persName key="Kriarás, Emmanouíl 1906-2014" ref="http://viaf.org/viaf/46879131">Κριαρά</persName></persName>.   
                     
                 </postscript> 
             </div>
