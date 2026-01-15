@@ -5,13 +5,13 @@
                 <title>Επιστολή</title>
                 <author>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
+                        <forename/>
+                        <surname/>
                     </persName>
                 </author>
                 <respStmt>
                     <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
-                    <name></name>
+                    <name/>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -21,16 +21,16 @@
                 <msDesc>
                     <msIdentifier>
                         <settlement>Αθήνα</settlement>
-                        <idno type="filename"></idno>
+                        <idno type="filename"/>
                     </msIdentifier>
                     <msContents>
-                        <summary></summary>
+                        <summary/>
                         <textLang mainLang="el">Ελληνικά</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc material="paper">
-                                <support></support>
+                                <support/>
                                 <extent>1 φύλλο</extent>
                             </supportDesc>
                             <layoutDesc>
@@ -45,23 +45,23 @@
                     </physDesc>
                 </msDesc>
                 <bibl>
-                    <orgName></orgName>
+                    <orgName/>
                     
                 </bibl>
             </sourceDesc>
         </fileDesc>
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
         
-        <profileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName></persName>
+                    <persName/>
                     <placeName>Αθήνα</placeName>
-                    <date when="1955-02-16"></date>
+                    <date when="1955-02-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName></persName>
+                    <persName/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -86,7 +86,7 @@
                 
                 <p>
                     <placeName>Αθήνα</placeName>, 5-10-61
-                    
+</p><p>                    
                     Σεβαστέ μου κ. Καθηγητά,
                     
                     Απαντώ αμέσως μόλις πήρα το γράμμα σας. 1) Ο <persName>Schreiler</persName> έχει δίκαιο. Πράγματι, στη σελ[ίδα] 24 (Ζ 12, φ 10β) υπάρχουν δύο λέξεις- η μία στην άνω δεξιά γωνία και η άλλη στη μέση ακριβώς της σελίδας- που συνεχίζονται στη σελ[ίδα] 25 (Ζ 12, φ 11α). Αυτό μπορείτε ίσως να το διαπιστώσετε από τις μεταγραφές που έχετε μαζί σας (Έτοιμα, Α!). Νομίζω πως είναι απαραίτητο να τυπωθούν οι δύο αυτές λέξεις στη σελ[ίδα] 24 για να μην κοπούν, πράγμα που, όπως γράφει και ο <persName>Schreiler</persName>, είναι εύκολο και δυνατό να γίνει. Υποθέτω πως αυτό σας γράφει και για τη λέξη που βρίσκεται στη μέση της σελ[ίδας] 25· ό,τι κλείνω μέσα σε παρένθεση είναι τα γράμματα που συνεχίζονται στη σελ[ίδα] 25. Α) rugiada che sale alla forna(ce). Β) mar tutta e non voler l’ esis(tenga). Και οι δύο αυτοί στίχοι είναι μεταγενέστερες προσθήκες στα δίστιχα και αρχίζουν απ’ τη μέση της στήλης β. Ύστερα από τις πληροφορίες που σας δίνω, θεωρώ περιττό να σας στείλω και τις φωτογραφίες των σελ[ίδων] 24 και 25. Αν πάλι τις χρειάζεστε, γράψτε μου και σας τις στέλνω αμέσως.
