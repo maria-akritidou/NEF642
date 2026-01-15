@@ -211,6 +211,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?person_annotation_20260115154044569",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:40:44.569Z",
+	"dcterms:modified": "2026-01-15T13:40:44.569Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/sofiakaraba",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sofia Karaba"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?person_annotation_20260115154044569#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?person_annotation_20260115154044569#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/salute/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/117521517",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?person_annotation_20260115154105680",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:41:05.680Z",
+	"dcterms:modified": "2026-01-15T13:41:05.680Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/sofiakaraba",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sofia Karaba"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?person_annotation_20260115154105680#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-3-31_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?person_annotation_20260115154105680#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/193068360",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -242,13 +401,13 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-3-31_%CE%91%CE%9B%CE%95%CE%9E%CE%99%CE%9F%CE%A5%20%CE%9B%CE%95%CE%A5%CE%A4%CE%95%CE%A1%CE%97%CE%A3_Page_1.jpg?raw=true"/>
                 
-                <opener><dateline><placeName>Ηράκλειο</placeName>, <date>31 του Μάρτη, 1956</date></dateline></opener>                                          <salute>Φίλε  […]   <persName>Λίνε Πολίτη</persName>,</salute>                                       <p>Γράψατε και δημοσιεύσατε πως «κυριολεκτικά παραμόρφωσα τη Βοσκοπούλα». Μα υπάρχει <title cert="high">Βοσκοπούλα</title>; Υπάρχει μόνο το κείμενο, που δημοσίευσε ένας ακατέργαστος και μισοαγράμματος Κρητικός από τον <placeName><placeName key="Επαρχία Αποκορώνου (Χανιά)" ref="http://viaf.org/viaf/7.95215879279624e+21">Αποκόρωνα</placeName></placeName>, ο <persName>Δριμυτινός</persName>. Τούτος εξέδωσε το ποίημα από μνήμης, χωρίς ούτε να το θυμάται καλά, ούτε να το αισθάνεται ανάλογα με την αξία του. Έχουμε δηλαδή μπροστά μας ένα κείμενο «παραμορφωμένο». Τα λέω στην εισαγωγή μου και τα ξεκαθαρίζω. Μα δεν τα διαβάσατε φαίνεται ή δεν τα προσέξατε. Δεν παραμόρφωσα λοιπόν, όπως ισχυρίζεστε. Προσπάθησα να ξεπαραμορφώσω.
+                <opener><dateline><placeName>Ηράκλειο</placeName>, <date>31 του Μάρτη, 1956</date></dateline></opener>                                          <salute>Φίλε  […]   <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" role="edt">Λίνε Πολίτη</persName></persName>,</salute>                                       <p>Γράψατε και δημοσιεύσατε πως «κυριολεκτικά παραμόρφωσα τη Βοσκοπούλα». Μα υπάρχει <title cert="high">Βοσκοπούλα</title>; Υπάρχει μόνο το κείμενο, που δημοσίευσε ένας ακατέργαστος και μισοαγράμματος Κρητικός από τον <placeName><placeName key="Επαρχία Αποκορώνου (Χανιά)" ref="http://viaf.org/viaf/7.95215879279624e+21">Αποκόρωνα</placeName></placeName>, ο <persName>Δριμυτινός</persName>. Τούτος εξέδωσε το ποίημα από μνήμης, χωρίς ούτε να το θυμάται καλά, ούτε να το αισθάνεται ανάλογα με την αξία του. Έχουμε δηλαδή μπροστά μας ένα κείμενο «παραμορφωμένο». Τα λέω στην εισαγωγή μου και τα ξεκαθαρίζω. Μα δεν τα διαβάσατε φαίνεται ή δεν τα προσέξατε. Δεν παραμόρφωσα λοιπόν, όπως ισχυρίζεστε. Προσπάθησα να ξεπαραμορφώσω.
                     «Είναι κρίμα κι άδικο, παράπονο μεγάλο» ένας σίγουρα ικανός και τίμιος επιστήμονας, όπως εσείς, να πέφτει σε τόσο χοντρά λάθη αντίκρυ στην επιστήμη του, κι αντίκρυ στους αθόρυβους συνανθρώπους του. 
                     Δε μου αρέσουν οι δημόσιες συζητήσεις, που μου θυμίζουν τα «μικρά   <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-3-31_%CE%91%CE%9B%CE%95%CE%9E%CE%99%CE%9F%CE%A5%20%CE%9B%CE%95%CE%A5%CE%A4%CE%95%CE%A1%CE%97%CE%A3_Page_2.jpg?raw=true"/> μυστικά» της <title key="Βιβλιοθήκη τής &amp;quot;Διάπλασης των Παίδων&amp;quot;" ref="http://viaf.org/viaf/8174511862215630000" level="j">Διάπλασης.</title> Έτσι δεν θα σας απαντήσω δημόσια. Περιμένω όμως να διευκρινίσετε εσείς δημόσια το ζήτημα, για ν’ αποκατασταθεί η επιστημονική αλήθεια σχετικά με τη <title cert="high">Βοσκοπούλα</title>, αλήθεια που την κακοποιήσατε χωρίς κανένα λόγο.</p>
                     
                     
                     <closer>Με τιμή,
-                    <persName>Λευτέρης Αλεξίου</persName></closer>
+                    <persName><persName key="Alexíou, Eleuthérios (Leutérīs), 1890-1964" ref="http://viaf.org/viaf/193068360">Λευτέρης Αλεξίου</persName></persName></closer>
                     
             
             </div>
