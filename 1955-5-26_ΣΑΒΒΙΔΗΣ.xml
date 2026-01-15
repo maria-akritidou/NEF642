@@ -291,6 +291,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?person_annotation_20260115154559198",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:45:59.198Z",
+	"dcterms:modified": "2026-01-15T13:45:59.198Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/dimitrakofi-bit",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dimitra Kofidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?person_annotation_20260115154559198#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?person_annotation_20260115154559198#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[8]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/69037578",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -332,7 +412,7 @@
                     διαβάσετε το πράγμα όταν πάρει την πρώτη του “τελική” μορφή, έτσι ώστε να με γλιτώσετε τουλάχιστον από τα πιο χοντρά σφάλματά μου κι από τις πιο χτυπητές κοινοτοπίες μου. Βέβαια, θέλω να πιστεύω πως, αν δεν ήταν στη μέση η φροντίδα της ΑΕΕ, θάχα κιόλα τελειώσει- ας είναι… Πάντως, ελπίζω να με συγχωρέσετε από τώρα, που τόσο αδέξια χειρίστηκα την ευκαιρία που μου δώσατε να δημοσιεύσω  στην ΑΕΕ ένα τόσο σπουδαίο κείμενο, και να δείξετε την επιείκεια που αναλογεί σ’ ένα “μαθητευόμενο μάγο”! </p><p>                    Τελειώνω, θυμίζοντάς σας την παράκλησή μου για συνεργασία στην ΑΕΕ· θα σας είμαι πολύ υποχρεωμένος αν βρείτε καιρό είτε για βιβλιοκρισία(λ.χ. <persName><persName cert="unknown" type="real">Αποστολίδη</persName></persName> ή <persName>Τωμαδάκη</persName>) είτε για το άρθρο εκείνο για την ποιμενική ποίηση- o altra cosa. Ελπίζω, την ερχόμενη φορά που θα βρεθείτε στην <placeName>Αθήνα</placeName>, νάμαι  πιο τυχερός και να μπορέσουμε να σας συστήσουμε στο τρίτο μέλος της οικογενείας. Από την Λένα έχετε πολλά χαιρετίσματα.</p><p>                    
                    <closer> Με θερμούς χαιρετισμούς,
                     δικός σας</closer>
-</p><p>                    Γιώργος <persName>Σαββίδης</persName>
+</p><p>                    Γιώργος <persName><persName key="Savvidēs, Geōrgios P." ref="http://viaf.org/viaf/69037578" cert="high">Σαββίδης</persName></persName>
                     
                 </p> 
             </div>
