@@ -132,6 +132,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1959_1_31_ΣΟΦΙΑΝΟΠΟΥΛΟΣ.xml?person_annotation_20260115153939169",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:39:39.169Z",
+	"dcterms:modified": "2026-01-15T13:39:39.169Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/dimitrakofi-bit",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dimitra Kofidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1959_1_31_ΣΟΦΙΑΝΟΠΟΥΛΟΣ.xml?person_annotation_20260115153939169#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1959_1_31_ΣΟΦΙΑΝΟΠΟΥΛΟΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1959_1_31_ΣΟΦΙΑΝΟΠΟΥΛΟΣ.xml?person_annotation_20260115153939169#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/117521517",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -163,7 +243,7 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1959_1_31_%CE%A3%CE%9F%CE%A6%CE%99%CE%91%CE%9D%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3.jpg?raw=true"/>
                 
-                <p>Προς τον  αξιότιμον καθηγητήν του Πανεπιστημίου <placeName>Θεσσαλονίκης</placeName> <persName><persName cert="high" type="real">Λίνον Πολίτην</persName></persName> .
+                <p>Προς τον  αξιότιμον καθηγητήν του Πανεπιστημίου <placeName>Θεσσαλονίκης</placeName> <persName><persName cert="high" type="real"><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Λίνον Πολίτην</persName></persName></persName> .
 </p><p>                    
                    <opener> Φίλτατε,</opener>
                     έλαβα δια τα Χριστούγεννα  επίσημο δώρο τας ευχάς σου. Μου έφθασαν αντάμα μ’ εκείνα του <persName>Νάκη Πιέρη</persName>  απ΄την <placeName>Κέρκυρα</placeName> . Και είχαν το ίδιο μέγεθος. Εχάρηκα πολύ. Την ίδια ώρα. Κ΄έχομε κάτι που μας δένει τους τρεις δια πάντα.</p><p>                    Δεν έγραψα αλλά σ’ εσκέφθηκα. Τι το θέλεις; Έχω σκέψεις· ο αδελφός μου <persName>Παναγιώτης</persName> , 79 ετών ( è stato nel 1912 volontario in Grecia, ed ha partecipato alla battaglia di <placeName>Drisko</placeName>  , dov’ è morto il poeta <persName>Lorenzo Mavilli</persName> garibaldino fece tutta la guerra 1915-18, volontario, al fronte, contro l’ impero degli (…); avvocato, musicista, conosce 11 lingue…*) είναι  βαριά άρρωστος, κι έτσι δεν ζωγραφίζω, και δεν μεταφράζω τον <persName>Villon</persName> , που ήθελα να τον έχω ιταλικά, εκείνον τον δυστυχή, ανήσυχο, τον πολλάκις τον… θάνατο εκφυγέντα.. Δι αυτό ήθελα να τον βάλω σε ρυθμούς ιταλικής αρμονίας. </p><p>                    Με τον <persName><persName key="Mavílīs, Loréntzos, 1860-1912" ref="http://viaf.org/viaf/210149106254768500000">Μαβίλη</persName></persName>  είμαι πάντοτε στα κρύα του λουτρού, αλλά στο τέλος θα το κατορθώσω. Μετέφρασα 60 σονέτα! Εντελώς ενδεκασυλλαβικά, και με τες ρίμες σαν στο κείμενο. Θα έλθει η ημέρα; Έχω 70 έτη. Τι κρίμα!
