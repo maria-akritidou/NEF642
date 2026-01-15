@@ -212,6 +212,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?person_annotation_20260115154424001",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-15T13:44:24.001Z",
+	"dcterms:modified": "2026-01-15T13:44:24.001Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/dimitrakofi-bit",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dimitra Kofidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?person_annotation_20260115154424001#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-5-26_ΣΑΒΒΙΔΗΣ.xml?person_annotation_20260115154424001#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/213149066579065600000",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -247,7 +326,7 @@
                     Πλάκα- Αθήνα
                     26 Μαΐου 1955</p><p>                    
                    <opener> Αγαπητέ μου Κύριε <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Πολίτη</persName></persName>,</opener>
-</p><p>                    Σας γράφω βιαστικά, μέσα στην παραζάλη των εξετάσεων του Ι.Κ.Υ. , για να σας ευχαριστήσω πρώτα-πρώτα για την ευγενική σας προσφορά της Βιβλιογραφίας· την έλαβα λίγες μέρες πριν αρχίσει η κατάσταση πολιορκίας, κι έτσι μπόρεσα να την φυλλομετρήσω προσεχτικά- προς μεγάλη μου ωφέλεια και απόλαυση. Συλλογιέμαι με δέος πόσον κόπο σας απαίτησε το κρισάρισμα τόσου υλικού και η συμπύκνωση των κρίσεών σας για το κάθε λήμμα, και τελικά η ισορρόπηση του όλου πράγματος. Μακάρι η τόσο πολύτιμη αυτή εργασία να μπορέσει να συνεχιστεί για πολλά χρόνια και στο ίδιο πάντα επίπεδο. Επιτρέψτε μου, για μικρό αντίδωρο, να σας προσφέρω το τεύχος της Rivista di Critica- στα χέρια σας, θα πιάσει πολύ περισσότερον τόπο παρά στα δικά μου.</p><p>                    Να με συμπαθάτε για το μεγάλο αλληλογραφικό κενό: χώρεσαν μέσα σ’ αυτό τόσα! Αρκούμαι ν’ αναφέρω την γέννηση του γιού μας, του Δημήτρη, και την έκδοση του Β’ τόμου του <persName><persName key="Solōmós, Dionýsios, 1798-1857" ref="http://viaf.org/viaf/17235346">Σολωμού</persName></persName> σας- αμφότεροι, μια χαρά! Αναρωτιέμαι αν θάταν δυνατό, στον Γ’ πιά τόμο, να συμπληρωθεί ο Α’, τώρα που (αν δεν κάνω λάθος) σας είναι προσιτά όλα τα χειρόγραφα. Από μια επιπόλαια ματιά που έριξα στον τόμο <persName>Τωμαδάκη</persName>- Βασικής, είδα πως αποτελεί την αντάξια τελεία και παύλα μιας υπόθεσης που καλύτερα θάταν να μην είχε αρχίσει ποτέ…
+</p><p>                    Σας γράφω βιαστικά, μέσα στην παραζάλη των εξετάσεων του Ι.Κ.Υ. , για να σας ευχαριστήσω πρώτα-πρώτα για την ευγενική σας προσφορά της Βιβλιογραφίας· την έλαβα λίγες μέρες πριν αρχίσει η κατάσταση πολιορκίας, κι έτσι μπόρεσα να την φυλλομετρήσω προσεχτικά- προς μεγάλη μου ωφέλεια και απόλαυση. Συλλογιέμαι με δέος πόσον κόπο σας απαίτησε το κρισάρισμα τόσου υλικού και η συμπύκνωση των κρίσεών σας για το κάθε λήμμα, και τελικά η ισορρόπηση του όλου πράγματος. Μακάρι η τόσο πολύτιμη αυτή εργασία να μπορέσει να συνεχιστεί για πολλά χρόνια και στο ίδιο πάντα επίπεδο. Επιτρέψτε μου, για μικρό αντίδωρο, να σας προσφέρω το τεύχος της Rivista di Critica- στα χέρια σας, θα πιάσει πολύ περισσότερον τόπο παρά στα δικά μου.</p><p>                    Να με συμπαθάτε για το μεγάλο αλληλογραφικό κενό: χώρεσαν μέσα σ’ αυτό τόσα! Αρκούμαι ν’ αναφέρω την γέννηση του γιού μας, του Δημήτρη, και την έκδοση του Β’ τόμου του <persName><persName key="Solōmós, Dionýsios, 1798-1857" ref="http://viaf.org/viaf/17235346">Σολωμού</persName></persName> σας- αμφότεροι, μια χαρά! Αναρωτιέμαι αν θάταν δυνατό, στον Γ’ πιά τόμο, να συμπληρωθεί ο Α’, τώρα που (αν δεν κάνω λάθος) σας είναι προσιτά όλα τα χειρόγραφα. Από μια επιπόλαια ματιά που έριξα στον τόμο <persName><persName key="Tōmadákīs, Nikólaos V., 1907-1993" ref="http://viaf.org/viaf/213149066579065600000">Τωμαδάκη</persName></persName>- Βασικής, είδα πως αποτελεί την αντάξια τελεία και παύλα μιας υπόθεσης που καλύτερα θάταν να μην είχε αρχίσει ποτέ…
 </p><p>                    Για να σας απαλλάξω από την φροντίδα να γράψετε σεις το εισαγωγικό σημείωμα για την  αναδημοσίευση του Σατιρικού στην ΑΕΕ, σκέφτηκα πριν κάπου 6 μήνες να το γράψω εγώ με βάση τα σχόλιά σας. Τι το πιο απλό! Ωστόσο, το αποτέλεσμα είναι πως βρίσκομαι αυτή τη στιγμή μπερδεμένος σαν γατί που έπιασε να παίξει με ένα κουβάρι μαλλί. Ελπίζω όμως να τα καταφέρω, μέσα στο καλοκαίρι, να ξεμπερδευτώ όπως-όπως, και θα σας χρωστώ μεγάλη χάρη αν βρείτε τον καιρό να 
                     <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1955-5-26_%CE%A3%CE%91%CE%92%CE%92%CE%99%CE%94%CE%97%CE%A3_Page_2.jpg?raw=true"/>
                     διαβάσετε το πράγμα όταν πάρει την πρώτη του “τελική” μορφή, έτσι ώστε να με γλιτώσετε τουλάχιστον από τα πιο χοντρά σφάλματά μου κι από τις πιο χτυπητές κοινοτοπίες μου. Βέβαια, θέλω να πιστεύω πως, αν δεν ήταν στη μέση η φροντίδα της ΑΕΕ, θάχα κιόλα τελειώσει- ας είναι… Πάντως, ελπίζω να με συγχωρέσετε από τώρα, που τόσο αδέξια χειρίστηκα την ευκαιρία που μου δώσατε να δημοσιεύσω  στην ΑΕΕ ένα τόσο σπουδαίο κείμενο, και να δείξετε την επιείκεια που αναλογεί σ’ ένα “μαθητευόμενο μάγο”! </p><p>                    Τελειώνω, θυμίζοντάς σας την παράκλησή μου για συνεργασία στην ΑΕΕ· θα σας είμαι πολύ υποχρεωμένος αν βρείτε καιρό είτε για βιβλιοκρισία(λ.χ. <persName>Αποστολίδη</persName> ή <persName>Τωμαδάκη</persName>) είτε για το άρθρο εκείνο για την ποιμενική ποίηση- o altra cosa. Ελπίζω, την ερχόμενη φορά που θα βρεθείτε στην <placeName>Αθήνα</placeName>, νάμαι  πιο τυχερός και να μπορέσουμε να σας συστήσουμε στο τρίτο μέλος της οικογενείας. Από την Λένα έχετε πολλά χαιρετίσματα.</p><p>                    
