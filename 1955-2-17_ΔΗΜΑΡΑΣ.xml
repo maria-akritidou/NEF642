@@ -5,13 +5,13 @@
                 <title>Επιστολή</title>
                 <author>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
+                        <forename/>
+                        <surname/>
                     </persName>
                 </author>
                 <respStmt>
                     <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
-                    <name></name>
+                    <name/>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -21,16 +21,16 @@
                 <msDesc>
                     <msIdentifier>
                         <settlement>Αθήνα</settlement>
-                        <idno type="filename"></idno>
+                        <idno type="filename"/>
                     </msIdentifier>
                     <msContents>
-                        <summary></summary>
+                        <summary/>
                         <textLang mainLang="el">Ελληνικά</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc material="paper">
-                                <support></support>
+                                <support/>
                                 <extent>1 φύλλο</extent>
                             </supportDesc>
                             <layoutDesc>
@@ -45,23 +45,23 @@
                     </physDesc>
                 </msDesc>
                 <bibl>
-                    <orgName></orgName>
+                    <orgName/>
                     
                 </bibl>
             </sourceDesc>
         </fileDesc>
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
         
-        <profileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName></persName>
+                    <persName/>
                     <placeName>Αθήνα</placeName>
-                    <date when="1955-02-16"></date>
+                    <date when="1955-02-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName></persName>
+                    <persName/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -84,8 +84,7 @@
                 
                 
                 
-                <p>
-                    17.11.55
+                <p>Μουρούζη 10 17.2.55
                     Πολύ σε επεθύμησα, <persName>Λίνο</persName> μου, και αυτόν τον καιρό έτυχε να μην αλληλογραφήσουμε καν. Τώρα σου γράφω για δουλειά. Αλλά πριν απ’αυτό, πες μου, γνωρίζεις ότι η τάξη της Ακαδημίας απέρριψε δια μυστικής ψηφοφορίας την πρότασή σου για την έκδοση του <persName>Σολωμού</persName>; Γνωρίζεις ακόμη ότι, παρόντων πάντως <persName>Αμάντου</persName>, <persName>Κουγέα</persName>, <persName>Ρωμαίου</persName>, <persName>Καλλιτσουνάκη</persName>, <persName>Ορλάνδου</persName>, η πρότασή σου συνεκέντρωσε τρεις ψήφους; Για φαντάσου, μυστική ψηφοφορία για θέμα επιστημονικό· αναρωτιέται κανείς αν θα μπορέσουμε ποτέ να ανεβούμε, τόσο χαμηλά που έχουμε πέσει. Και τις επιστολές του <persName>Κοραή</persName> δεν θα τις εκδόσει, ώστε το θέμα μένει ανοιχτό· μπορεί καμμιά ώρα να το κουβεντιάσουμε, δίνοντας συνέχεια σε όσα ελέγαμε σχετικά τον Νοέμβριο στην <placeName>Θεσσαλονίκη</placeName>· και για το δικό μου το θέμα ελέχθηκαν ανοησίες μεγάλες, αλλά δεν εχρειάσθηκε να φθάσουν σε μυστική ψηφοφορία, γιατί υπήρχε η διέξοδος της οικονομικής αδυναμίας. Τώρα περιμένω γράμμα τους όπου θα με ρωτούν τι εννοώ ηθική ενίσχυση (ή κάτι τέτοιο: δεν θυμούμαι ποιό αφηρημένο είχα βάλει, και δεν έχω εδώ το γράμμα μου). Ο <persName>Καλλιτσουνάκης</persName> εκατάλαβε επιτροπή, άλλοι άλλα· θα τους εξηγήσω ότι θέλω να μου επιτρέπουν να κάνω την αντιβολή των δοκιμίων με όσα πρωτότυπα έχουν στην Ακαδημία. Αυτό δεν το εσκέφθηκαν.
                     Ταύτα. Με έπιασε φλυαρία: είμαι μόνος στο σπίτι, και ετελείωσα την δουλειά που είναι η αφορμή της επιστολής μου. Επιγράφεται “ Η σχολή του <placeName>Αγίου Όρους</placeName> στα 1800”. 27 σελίδες γραφομηχανής σαν και αυτήν που κρατείς στο χέρι σου. Ένα πολύ σπουδαίο ανέκδοτο κείμενο (15 σελίδες) σχολιασμένο. <placeName>Άγιον Όρος</placeName>, <persName>Κοραής</persName> (φυσικά), ιδανικό θέμα για τον τόμο <persName>Κουγέα</persName>· ακόμη και ο μακαρίτης <persName>Σωτήρης Κουγιάς</persName> περνάει από το κείμενο και από τα σχόλια. Μα θα βγει ο τόμος; ή να το βάλουμε στα “Ελληνικά”, όπου έχω πολλήν επιθυμία να συνεργασθώ, όπως σου έλεγα και όχι με βιβλιοκρισίες μόνο; Γράψε μου. Όσο εξαρτάται από μένα, βλέπεις, πάντως το προορίζω για τον βορρά. Είναι, όπως το λέτε εσείς οι γερμανομαθείς DRUCKFERTIG.
                     Με αγάπη
