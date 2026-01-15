@@ -5,13 +5,13 @@
                 <title>Επιστολή</title>
                 <author>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
+                        <forename/>
+                        <surname/>
                     </persName>
                 </author>
                 <respStmt>
                     <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
-                    <name></name>
+                    <name/>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -21,16 +21,16 @@
                 <msDesc>
                     <msIdentifier>
                         <settlement>Αθήνα</settlement>
-                        <idno type="filename"></idno>
+                        <idno type="filename"/>
                     </msIdentifier>
                     <msContents>
-                        <summary></summary>
+                        <summary/>
                         <textLang mainLang="el">Ελληνικά</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc material="paper">
-                                <support></support>
+                                <support/>
                                 <extent>1 φύλλο</extent>
                             </supportDesc>
                             <layoutDesc>
@@ -45,23 +45,23 @@
                     </physDesc>
                 </msDesc>
                 <bibl>
-                    <orgName></orgName>
+                    <orgName/>
                     
                 </bibl>
             </sourceDesc>
         </fileDesc>
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
         
-        <profileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName></persName>
+                    <persName/>
                     <placeName>Αθήνα</placeName>
-                    <date when="1955-02-16"></date>
+                    <date when="1955-02-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName></persName>
+                    <persName/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -84,11 +84,9 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1959_10_22_%CE%A0%CE%9F%CE%9B%CE%99%CE%A4%CE%97%CE%A3_%CF%80%CF%81%CE%BF%CF%82_%CE%A3%CE%9F%CE%A6%CE%99%CE%91%CE%9D%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F_%CE%B1%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF.jpg?raw=true"/>
                 
-                <p>22. 10. 59
-                    
-                    Αγαπητέ Κύριε <persName>Σοφιανόπουλε</persName> , 
-                    Δεν έχω άλλα νέα σας από το μάλλον απαισιόδοξο γράμμα σας της 31 Ιανουαρίου. Είδα εκεί ότι λόγω της ασθένειας του αδερφού σας  δεν  είχατε και πολλη όρεξη. Τι απέγινε; Πώς είναι ο  αδερφός σας;
-                    Τι γίνεται ο <persName>Μαβίλη</persName> μας; Σας εσωκλείω απόκομμα από το σημερινό Έθνος, όπου βλέπω με μεγάλη μου απορία ότι εκδίδει μετάφραση όλων των ποιημάτων του <persName>Μαβίλη</persName>  ο κ. <persName>Λαβανίνι</persName> ! Και μάλιστα με τα άρθρα κκ. <persName>Σαβίνιο</persName>  και <persName>Σπαλάτσι</persName> , που επρόκειτο να δημοσιευθούν στη δική μας έκδοση. Πάει λοιπόν, ναυαγεί η δική μας έκδοση; Σας παρακαλώ γράψετέ μου κάτι για να κατατοπισθώ.     
+                <p>22. 10. 59</p><p>                    
+                    Αγαπητέ Κύριε <persName>Σοφιανόπουλε</persName> , </p><p>                    Δεν έχω άλλα νέα σας από το μάλλον απαισιόδοξο γράμμα σας της 31 Ιανουαρίου. Είδα εκεί ότι λόγω της ασθένειας του αδερφού σας  δεν  είχατε και πολλη όρεξη. Τι απέγινε; Πώς είναι ο  αδερφός σας;
+</p><p>                    Τι γίνεται ο <persName>Μαβίλη</persName> μας; Σας εσωκλείω απόκομμα από το σημερινό Έθνος, όπου βλέπω με μεγάλη μου απορία ότι εκδίδει μετάφραση όλων των ποιημάτων του <persName>Μαβίλη</persName>  ο κ. <persName>Λαβανίνι</persName> ! Και μάλιστα με τα άρθρα κκ. <persName>Σαβίνιο</persName>  και <persName>Σπαλάτσι</persName> , που επρόκειτο να δημοσιευθούν στη δική μας έκδοση. Πάει λοιπόν, ναυαγεί η δική μας έκδοση; Σας παρακαλώ γράψετέ μου κάτι για να κατατοπισθώ.</p><p>     
                             
                             Με πολλή φιλία, Δικός σας πάντα
                   
