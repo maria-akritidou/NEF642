@@ -5,13 +5,13 @@
                 <title>Επιστολή</title>
                 <author>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
+                        <forename/>
+                        <surname/>
                     </persName>
                 </author>
                 <respStmt>
                     <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
-                    <name></name>
+                    <name/>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -21,16 +21,16 @@
                 <msDesc>
                     <msIdentifier>
                         <settlement>Αθήνα</settlement>
-                        <idno type="filename"></idno>
+                        <idno type="filename"/>
                     </msIdentifier>
                     <msContents>
-                        <summary></summary>
+                        <summary/>
                         <textLang mainLang="el">Ελληνικά</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc material="paper">
-                                <support></support>
+                                <support/>
                                 <extent>1 φύλλο</extent>
                             </supportDesc>
                             <layoutDesc>
@@ -45,23 +45,23 @@
                     </physDesc>
                 </msDesc>
                 <bibl>
-                    <orgName></orgName>
+                    <orgName/>
                     
                 </bibl>
             </sourceDesc>
         </fileDesc>
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
         
-        <profileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName></persName>
+                    <persName/>
                     <placeName>Αθήνα</placeName>
-                    <date when="1955-02-16"></date>
+                    <date when="1955-02-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName></persName>
+                    <persName/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -84,16 +84,16 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-4-7_%CE%91%CE%9B%CE%95%CE%9E%CE%99%CE%9F%CE%A5%20%CE%9B%CE%95%CE%A5%CE%A4%CE%95%CE%A1%CE%97%CE%A3.jpg?raw=true"/>
                 
-                <p>Ξέρετε πως στο <persName>Hesseling</persName> άρεσε η Βοσκοπούλα μου;              7.4.1956
+                <p>Ξέρετε πως στο <persName>Hesseling</persName> άρεσε η Βοσκοπούλα μου;</p>             <opener><date>7.4.1956</date>
                     
-                    Φίλε μου <persName>Λίνε Πολίτη</persName>,
+                    <salute>Φίλε μου <persName>Λίνε Πολίτη</persName></salute></opener>,
                     
-                    Έλαβα και διάβασα προσεκτικά το γράμμα σας. Πιστοποίησα και πάλι, πως δεν συνεννοούμαστε, ίσως από δική μου αφορμή. Θα προσπαθήσω να ‘μαι πιο σαφής. Όσα λέτε σωστά. Αλλά δεν έχουν ισχύ στη Βοσκοπούλα, που τυπώθηκε αρχικά σε κακή κατάσταση. Η κριτική και φιλολογική θα κατέληγε να «αποκαταστήσει» εκείνο το σε κακή κατάσταση κείμενο του <persName>Δριμυτινού</persName>. Η φιλολογική κριτική έχει αξία στα παλιά κείμενα και στα νέα, όσα τυπώθηκαν καλά στις πρώτες εκδόσεις. Παράδειγμα ο Ερωτόκριτος. Λέτε πως ο<persName> Δριμυτινός</persName> δεν δούλεψε από μνήμης. Ίσως να ‘χετε δίκιο. Δούλεψε, λέτε, επί τη βάσει χειρόγραφου. Δεκτό. Αλλά κακού χειρογράφου, που ξεκάθαρα παραμορφώνει το άγνωστο σωστό κείμενο. Ρίξτε πάλι ένα βλεμματάκι στον πρόλογό μου. Προσέξτε ένα χρήσιμο παράδειγμα: Λέει ο  <persName>Δριμυτινός</persName> σε κάποιο στίχο της Βοσκοπούλας: «Περιλαμπρώς τον ήλιο χαιρετούμε». Διόρθωσα σε «περλαμπαστά τον ήλιο χαιρετούμε». Ποιο σας αρέσει πιο πολύ; Το περλαμπαστά το αγνοούσε ο <placeName>Αποκορωνί</placeName> της <persName>Δριμυτινός</persName> και ετυμολογώντας το από το λάμπω, το παραμόρφωσε σε περιλαμπρώς! Κατά τη θεωρία σας πρέπει να το σεβαστούμε αυτό το αξιολύπητο περιλαμπρώς, ως Sacrosanctum, διότι η κριτικο-φιλολογική επιστήμη το απαντεί! Δι’ αυτό το περλαμπαστά (θαυμάσια […] λέξη και εικόνα) δέχτηκα τα συγχαρητήρια του <persName>Μανούσακα,</persName>. Γιατί όχι και τα δικά σας; Όσο για την ευγνωμοσύνη που χρωστάμε στον <persName>Δριμυτινό</persName>, είναι σίγουρη. Δεν είναι όμως λόγος αυτός, για να μη βλέπουμε την αθλιότητα της έκδοσής του και να θέλουμε να σεβαστούμε τα λάθη του. Παραξενεύομαι που δεν σας αρέσει μήτε η Φυλλάδα. Έχω νομίζω κάνει διορθώσεις στη Φυλλάδα, που κάθε πιο πέρα εκδότης της, αν δεν τις λάβει υπόψη, θα ‘ναι σε βάρος της δουλειάς της. Είμαι Κρητικός που έζησε πλάι στον <persName>Στυλιανό Αλεξίου</persName>  και τον <persName>Στέφανο Ξανθουδίδη</persName>. Έχει κάποια σημασία. 
+                    <p>Έλαβα και διάβασα προσεκτικά το γράμμα σας. Πιστοποίησα και πάλι, πως δεν συνεννοούμαστε, ίσως από δική μου αφορμή. Θα προσπαθήσω να ‘μαι πιο σαφής. Όσα λέτε σωστά. Αλλά δεν έχουν ισχύ στη Βοσκοπούλα, που τυπώθηκε αρχικά σε κακή κατάσταση. Η κριτική και φιλολογική θα κατέληγε να «αποκαταστήσει» εκείνο το σε κακή κατάσταση κείμενο του <persName>Δριμυτινού</persName>. Η φιλολογική κριτική έχει αξία στα παλιά κείμενα και στα νέα, όσα τυπώθηκαν καλά στις πρώτες εκδόσεις. Παράδειγμα ο Ερωτόκριτος. Λέτε πως ο<persName> Δριμυτινός</persName> δεν δούλεψε από μνήμης. Ίσως να ‘χετε δίκιο. Δούλεψε, λέτε, επί τη βάσει χειρόγραφου. Δεκτό. Αλλά κακού χειρογράφου, που ξεκάθαρα παραμορφώνει το άγνωστο σωστό κείμενο. Ρίξτε πάλι ένα βλεμματάκι στον πρόλογό μου. Προσέξτε ένα χρήσιμο παράδειγμα: Λέει ο  <persName>Δριμυτινός</persName> σε κάποιο στίχο της Βοσκοπούλας: «Περιλαμπρώς τον ήλιο χαιρετούμε». Διόρθωσα σε «περλαμπαστά τον ήλιο χαιρετούμε». Ποιο σας αρέσει πιο πολύ; Το περλαμπαστά το αγνοούσε ο <placeName>Αποκορωνί</placeName> της <persName>Δριμυτινός</persName> και ετυμολογώντας το από το λάμπω, το παραμόρφωσε σε περιλαμπρώς! Κατά τη θεωρία σας πρέπει να το σεβαστούμε αυτό το αξιολύπητο περιλαμπρώς, ως Sacrosanctum, διότι η κριτικο-φιλολογική επιστήμη το απαντεί! Δι’ αυτό το περλαμπαστά (θαυμάσια […] λέξη και εικόνα) δέχτηκα τα συγχαρητήρια του <persName>Μανούσακα,</persName>. Γιατί όχι και τα δικά σας; Όσο για την ευγνωμοσύνη που χρωστάμε στον <persName>Δριμυτινό</persName>, είναι σίγουρη. Δεν είναι όμως λόγος αυτός, για να μη βλέπουμε την αθλιότητα της έκδοσής του και να θέλουμε να σεβαστούμε τα λάθη του. Παραξενεύομαι που δεν σας αρέσει μήτε η Φυλλάδα. Έχω νομίζω κάνει διορθώσεις στη Φυλλάδα, που κάθε πιο πέρα εκδότης της, αν δεν τις λάβει υπόψη, θα ‘ναι σε βάρος της δουλειάς της. Είμαι Κρητικός που έζησε πλάι στον <persName>Στυλιανό Αλεξίου</persName>  και τον <persName>Στέφανο Ξανθουδίδη</persName>. Έχει κάποια σημασία.</p>
                         
-                        Δικός σας,
-                        <persName>Λ.Αλεξίου</persName>
+                        <closer>Δικός σας,
+                        <persName>Λ.Αλεξίου</persName></closer>
                         
-                </p> 
+                
             </div>
             
         </body>
