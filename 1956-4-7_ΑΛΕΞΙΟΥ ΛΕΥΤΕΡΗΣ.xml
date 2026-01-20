@@ -604,6 +604,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-4-7_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?date_annotation_20260120235357342",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-20T21:53:57.342Z",
+	"dcterms:modified": "2026-01-20T21:53:57.342Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/sofiakaraba",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sofia Karaba"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-4-7_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?date_annotation_20260120235357342#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-4-7_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-4-7_ΑΛΕΞΙΟΥ ΛΕΥΤΕΡΗΣ.xml?date_annotation_20260120235357342#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/date/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1956-04-07"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -635,7 +713,7 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-4-7_%CE%91%CE%9B%CE%95%CE%9E%CE%99%CE%9F%CE%A5%20%CE%9B%CE%95%CE%A5%CE%A4%CE%95%CE%A1%CE%97%CE%A3.jpg?raw=true"/>
                 
-                <p>Ξέρετε πως στο <persName>Hesseling</persName> άρεσε η <title><title>Βοσκοπούλα</title></title> μου;</p>             <opener><date>7.4.1956</date>
+                <p>Ξέρετε πως στο <persName>Hesseling</persName> άρεσε η <title><title>Βοσκοπούλα</title></title> μου;</p>             <opener><date><date when="1956-04-07">7.4.1956</date></date>
                     
                     <salute>Φίλε μου <persName><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517">Λίνε Πολίτη</persName></persName></salute></opener>,
                     
