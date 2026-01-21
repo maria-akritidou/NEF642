@@ -85,7 +85,7 @@
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1959_1_31_%CE%A3%CE%9F%CE%A6%CE%99%CE%91%CE%9D%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3.jpg?raw=true"/>
                 
                 <opener>
-					<address>Προς τον  αξιότιμον καθηγητήν του Πανεπιστημίου <placeName>Θεσσαλονίκης</placeName> <persName cert="high" type="real"><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Λίνον Πολίτην</persName></persName>.</address>
+					<address><p>Προς τον  αξιότιμον καθηγητήν του Πανεπιστημίου <placeName>Θεσσαλονίκης</placeName> <persName cert="high" type="real"><persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517" cert="high" type="real">Λίνον Πολίτην</persName></persName>.</p></address>
 
                
                     <salute>Φίλτατε,</salute>
@@ -93,11 +93,14 @@
 					</opener>
 
                   <p>  έλαβα δια τα Χριστούγεννα  επίσημο δώρο τας ευχάς σου. Μου έφθασαν αντάμα μ’ εκείνα του <persName>Νάκη Πιέρη</persName>  απ΄την <placeName>Κέρκυρα</placeName> . Και είχαν το ίδιο μέγεθος. Εχάρηκα πολύ. Την ίδια ώρα. Κ΄έχομε κάτι που μας δένει τους τρεις δια πάντα.</p><p>                    Δεν έγραψα αλλά σ’ εσκέφθηκα. Τι το θέλεις; Έχω σκέψεις· ο αδελφός μου <persName>Παναγιώτης</persName> , 79 ετών ( è stato nel 1912 volontario in Grecia, ed ha partecipato alla battaglia di <placeName>Drisko</placeName>  , dov’ è morto il poeta <persName>Lorenzo Mavilli</persName> garibaldino fece tutta la guerra 1915-18, volontario, al fronte, contro l’ impero degli (…); avvocato, musicista, conosce 11 lingue…*) είναι  βαριά άρρωστος, κι έτσι δεν ζωγραφίζω, και δεν μεταφράζω τον <persName>Villon</persName> , που ήθελα να τον έχω ιταλικά, εκείνον τον δυστυχή, ανήσυχο, τον πολλάκις τον… θάνατο εκφυγέντα.. Δι αυτό ήθελα να τον βάλω σε ρυθμούς ιταλικής αρμονίας. </p><p>                    Με τον <persName><persName key="Mavílīs, Loréntzos, 1860-1912" ref="http://viaf.org/viaf/210149106254768500000">Μαβίλη</persName></persName>  είμαι πάντοτε στα κρύα του λουτρού, αλλά στο τέλος θα το κατορθώσω. Μετέφρασα 60 σονέτα! Εντελώς ενδεκασυλλαβικά, και με τες ρίμες σαν στο κείμενο. Θα έλθει η ημέρα; Έχω 70 έτη. Τι κρίμα!
-</p><p>                    Έγραψα και τόσα άλλα, ελληνικα 300 ποιήματα, (...)150, Sagesse, του <persName>Verlaine</persName> , όλα του <persName>E.Poe</persName> , και άλλα ακόμα, γερμανικά κτλ. Μόνον τον <persName>Baudelaire</persName>  μου ετύπωσαν και τον του <persName>Σολωμού</persName> . Τι το θέλεις, ο κόσμος δεν σκοτίζεται πλέον με τέτοια. Και όμως θα έλθει η ώρα μας. 
-                        <closer>εν <placeName>Τεργέστη</placeName>  31.1.1959
-                        <persName>Καίσαρ Χ. Σοφιανόπουλος</persName> </closer>
+</p>
+<p>                    Έγραψα και τόσα άλλα, ελληνικα 300 ποιήματα, (...)150, Sagesse, του <persName>Verlaine</persName> , όλα του <persName>E.Poe</persName> , και άλλα ακόμα, γερμανικά κτλ. Μόνον τον <persName>Baudelaire</persName>  μου ετύπωσαν και τον του <persName>Σολωμού</persName> . Τι το θέλεις, ο κόσμος δεν σκοτίζεται πλέον με τέτοια. Και όμως θα έλθει η ώρα μας. 
+                        </p> 
+                        <closer>εν <placeName>Τεργέστη</placeName>  <date>31.1.1959</date>
+                        <signed><persName>Καίσαρ Χ. Σοφιανόπουλος</persName> </signed>
+                        </closer>
                         
-                </p> 
+                
             </div>
             
         </body>
