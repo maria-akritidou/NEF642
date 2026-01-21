@@ -802,86 +802,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?person_annotation_20260115154440277",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-01-15T13:44:40.277Z",
-	"dcterms:modified": "2026-01-15T13:44:40.277Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/despoinabeidari2003-star",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Despoina Beidari"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?person_annotation_20260115154440277#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.9.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?person_annotation_20260115154440277#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/closer/persName/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/193011495",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.9.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-14_ΜΕΡΤΖΙΟΣ.xml?place_annotation_20260115154600864",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-15T13:46:00.864Z",
@@ -1125,9 +1045,9 @@
                     ποτέ μπερνάρδου, ένα διώροφον σπίτι του εις το <placeName><placeName key="Χάνδακας" ref="http://www.wikidata.org/entity/Q12885967">Kάστρον του Χάνδακος</placeName></placeName> και ένα μαγαζί.</p>
                     <p>Είναι ή δεν είναι «ατομική» βόμβα; Έτσι εξηγείται διατί ο <persName><persName key="Βιτσέντζος Κορνάρος" ref="http://viaf.org/viaf/66524269" role="aut">Κορνάρος</persName></persName> παρασιωπά τους αγώνας Ενετών και Τούρκων και διατί συμπαθεί το ρηγόπουλο της <placeName><placeName key="Cyprus" ref="http://viaf.org/viaf/1146217595809141400" cert="high">Κύπρου<precision match="@ref" precision="high"/></placeName></placeName>, που ήτο τότε υπό την τουρκικήν κυριαρχίαν κ’ ότι εγράφη εις ειρηνικούς χρόνους και όχι υπό τους κρότους των τηλεβόλων του <date>1669</date> ως ενομίσθη.</p>
                     <p>Φαντάζομαι την εντύπωσην που θα προξενήσει αυτός ο «αδάμας» που ευρήκα μόλις χθες.</p>
-                    <closer>με πολλήν φιλίαν
-                    υμέτερος
-                    <persName><persName key="Mértzios, Kōnstantínos D., 1886-1971" ref="http://viaf.org/viaf/193011495" cert="high" type="real">Κ. Μέρτζιος</persName></persName></closer>
+                    <closer><salute>                                                με πολλήν φιλίαν</salute>
+                    <salute>                                                       υμέτερος</salute>
+                   <signed> <persName key="Mértzios, Kōnstantínos D., 1886-1971" ref="http://viaf.org/viaf/193011495" cert="high" type="real">Κ. Μέρτζιος</persName></signed></closer>
                     
                 
             </div>
