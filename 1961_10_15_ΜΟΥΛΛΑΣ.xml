@@ -293,6 +293,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260121162541909",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-21T14:25:41.909Z",
+	"dcterms:modified": "2026-01-21T14:25:41.909Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mariettatzanidou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "marietta tzanidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260121162541909#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260121162541909#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/closer[2]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1435235",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -337,7 +417,7 @@
                     Την επομένη της αναχωρήσεώς σας έλαβα τα δύο αντίγραφα του Καταστατικού της <orgName>«Διεθνούς Εταιρείας Νεοελληνικών Σπουδών»</orgName>, τα οποία και παρέδωσα στον <persName>κ. Δημαρά</persName>.
                     Εδώ το <orgName>ΚΝΕ</orgName> μας όλο καλά· συνεχίζει εντατικά τη δουλειά του.<closer> Τους χαιρετισμούς μου στη  <persName>Μαρία</persName>, <persName>Ειρήνη</persName>, <persName>Ελένη Κακουλίδη</persName> και <persName>Λεάνη</persName>. Μόλις χτες έμαθα ότι η 
                     <persName>Εριφύλλη Σαμουηλίδου</persName> αρραβωνιάστηκε με κάποιον συνάδελφό της από του <persName>Γεωργακά</persName> κι΄έφυγε μαζί του για την <placeName>Κύπρο</placeName> για να δουλέψουν εκεί.</closer><closer>Με σεβασμό κι’ αγάπη
-                    <persName>Παναγιώτης</persName></closer></p> 
+                    <persName><persName key="Panagiotis Mullas" ref="http://www.wikidata.org/entity/Q1435235" cert="high">Παναγιώτης</persName></persName></closer></p> 
             </div>
             
         </body>
