@@ -255,8 +255,8 @@
 </p>
 <p>Τα σχετικά με την έκδοση του <persName><persName key="Solōmós, Dionýsios, 1798-1857" ref="http://viaf.org/viaf/17235346" cert="high" type="real">Σολωμού</persName></persName> απ’την <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403" cert="high">Ακαδημία</orgName>, θα σας τα έγραψε ο κ. <persName>Κουγέας</persName>. Τρεις οι υπέρ… εναντίον του… σύμπαντος! Μη χειρότερα. (Και δια μυστικής μάλιστα ψηφοφορίας!).</p>
 
-                       <closer> <salute>Τους χαιρετισμούς μου στα παιδιά σας και στους φίλους.
-                  <br/>Με αγάπη</salute>
+                       <closer high="ident"> <salute>Τους χαιρετισμούς μου στα παιδιά σας και στους φίλους.</salute>
+               <salute>Με αγάπη</salute>
                      <signed> <persName>Κουρνούτος</persName></signed>
 </closer>
             </div>
