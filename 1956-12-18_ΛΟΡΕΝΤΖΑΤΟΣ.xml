@@ -56,85 +56,7 @@
         
         
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml?date_annotation_20260122141427706",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-01-22T12:14:27.706Z",
-	"dcterms:modified": "2026-01-22T12:16:05.317Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/aikaioan3",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Katerina Ioannou"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml?date_annotation_20260122141427706#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.9.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml?date_annotation_20260122141427706#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/date"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "xsd:date",
-		"rdf:value": "2026-12-18"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.9.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData><profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName/>
@@ -165,20 +87,20 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_1.jpg?raw=true"/>
                 
-                <p>                                                                                             <date when="2026-12-18" cert="high">18 Δεκεμβρίου 1956</date>
-                    Αγαπητέ <persName>Λίνο</persName>,
+                <opener>                                                                                             <dateline><date when="2026-12-18" cert="high">18 Δεκεμβρίου 1956</date></dateline>
+                    <salute>Αγαπητέ <persName>Λίνο</persName>,</salute></opener>
                     
-                    Κρούετε καὶ ἀνοιγήσεται ὑμῖν! Τα σημεία που θέλω είναι τα εξής: 1. …τὸν εἰς ταῖς αἰσθήσεσιν ἀόρατον μονάρχη 2. Ὁ μονάρχης ὅπου μένει κρυμμένος γιὰ ταῖς αἰσθήσεις καὶ γνωρίζεται μόνον ἀπὸ τὸ πνεῦμα μέσα εἰς τὸ ὁποῖον ἐγεννήθηκε, εἶναι ἔξω ἀπὸ τὴν στριφφεία τὰς καιρούς 3. … το Κοινό και το Κύριο… 4. …  οἱ νόες οἱ γυμνασμένοι καὶ βαθύς 5. …το νόημα, απο το οποίο πηγάζει η Ποίηση, και το οποίο αυτή υπηρετεί… 6. …τὸν ὑποστατικὸν ἴσκιον… 7. Τοιουτοτρόπως μεταφυσική ἔγινε φυσικὴ 8. …ἀτομικὸ σύμφωνο μὲ τὸ πνεῦμα τῆς γενικότητος ποὺ τὸ ἐγέννησε  <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_2.jpg?raw=true"/>9. …ὁ σιδερένιος καὶ ἀσύντριφτος κύκλος… 10. …οἱ μεγάλες οὐσίες…
-                    Αυτά είναι τα δέκα σημεία που θα ήθελα. Σου γράφω ακριβείς τα κομμάτια των φράσεων που χρειάζομαι αρχίζοντας «κατὰ φύσιν πρῶτον ἀπὸ τῶν πρώτων» και προχωρώντας δυστυχώς καμία έκδοση δεν έχει αρίθμηση (για να μη στα ζάλιζα) ώστε να σου σημειώνω παράγραφο ή στίχο. 
-                    Γνωρίζοντας τα γιγνόμενα “ἤθη” του τόπου μας, θεωρώ υποχρεωμένος να σας γνωρίσω τα ακόλουθα. Η δουλειά που κάνω είναι άσχετη με το <persName>Σολωμό</persName> . Η δημοσίευση της δε θα γίνει γρήγορα (ποτέ πριν απο το 1958). Πρωτού γίνει (δημοσίευση) θα σας γράψω να μας πεις αν θέλεις να αναφέρω —με τις ευχαριστίες μας— από όπου βρήκα έστω και τα λίγα αυτά “κομμάτια” των σολωμικών φράσεων, ή αν θέλεις να αποσιωπήσω εντελώς το ζήτημα μη αποκαλύπτοντας τίποτα σε κανένα. Τέλος για να μη πολυλογούμε, είμαι, όπως καταλαβαίνεις, στην απόλυτη διάθεσή σου, γύρω στην ακολουθία γραμμή.
-                    Το να σου πω ευχαριστώ, είναι λίγο. Θα σας είμαι αληθινά υποχρεωμένος <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_3.jpg?raw=true"/>και όχι για λογαριασμό ατομικό μου (αυτό δε θα είχε αξία), αλλά μόνο αυτή η βοήθειά σου —σχετικά με το ζήτημα των σολωμικών σημειωμάτων— με βγάζει λίγο από την ντροπή που αισθάνομαι να μιλάμε σήμερα “κρυφά” για τον<persName> Σολωμό</persName>. 
+                    <p>Κρούετε καὶ ἀνοιγήσεται ὑμῖν! Τα σημεία που θέλω είναι τα εξής: 1. …τὸν εἰς ταῖς αἰσθήσεσιν ἀόρατον μονάρχη 2. Ὁ μονάρχης ὅπου μένει κρυμμένος γιὰ ταῖς αἰσθήσεις καὶ γνωρίζεται μόνον ἀπὸ τὸ πνεῦμα μέσα εἰς τὸ ὁποῖον ἐγεννήθηκε, εἶναι ἔξω ἀπὸ τὴν στριφφεία τὰς καιρούς 3. … το Κοινό και το Κύριο… 4. …  οἱ νόες οἱ γυμνασμένοι καὶ βαθύς 5. …το νόημα, απο το οποίο πηγάζει η Ποίηση, και το οποίο αυτή υπηρετεί… 6. …τὸν ὑποστατικὸν ἴσκιον… 7. Τοιουτοτρόπως μεταφυσική ἔγινε φυσικὴ 8. …ἀτομικὸ σύμφωνο μὲ τὸ πνεῦμα τῆς γενικότητος ποὺ τὸ ἐγέννησε  <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_2.jpg?raw=true"/>9. …ὁ σιδερένιος καὶ ἀσύντριφτος κύκλος… 10. …οἱ μεγάλες οὐσίες…</p>
+                    <p>Αυτά είναι τα δέκα σημεία που θα ήθελα. Σου γράφω ακριβείς τα κομμάτια των φράσεων που χρειάζομαι αρχίζοντας «κατὰ φύσιν πρῶτον ἀπὸ τῶν πρώτων» και προχωρώντας δυστυχώς καμία έκδοση δεν έχει αρίθμηση (για να μη στα ζάλιζα) ώστε να σου σημειώνω παράγραφο ή στίχο.</p> 
+                    <p>Γνωρίζοντας τα γιγνόμενα “ἤθη” του τόπου μας, θεωρώ υποχρεωμένος να σας γνωρίσω τα ακόλουθα. Η δουλειά που κάνω είναι άσχετη με το <persName>Σολωμό</persName> . Η δημοσίευση της δε θα γίνει γρήγορα (ποτέ πριν απο το 1958). Πρωτού γίνει (δημοσίευση) θα σας γράψω να μας πεις αν θέλεις να αναφέρω —με τις ευχαριστίες μας— από όπου βρήκα έστω και τα λίγα αυτά “κομμάτια” των σολωμικών φράσεων, ή αν θέλεις να αποσιωπήσω εντελώς το ζήτημα μη αποκαλύπτοντας τίποτα σε κανένα. Τέλος για να μη πολυλογούμε, είμαι, όπως καταλαβαίνεις, στην απόλυτη διάθεσή σου, γύρω στην ακολουθία γραμμή.</p>
+                    <p>Το να σου πω ευχαριστώ, είναι λίγο. Θα σας είμαι αληθινά υποχρεωμένος <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_3.jpg?raw=true"/>και όχι για λογαριασμό ατομικό μου (αυτό δε θα είχε αξία), αλλά μόνο αυτή η βοήθειά σου —σχετικά με το ζήτημα των σολωμικών σημειωμάτων— με βγάζει λίγο από την ντροπή που αισθάνομαι να μιλάμε σήμερα “κρυφά” για τον<persName> Σολωμό</persName>.</p> 
                     
-                    Σου εύχομαι καλές γιορτές
-                    <persName>Ζ. Λορεντζάτος</persName>
-                    <placeName>Λεβίδου 23</placeName> 
-                    <placeName>Κηφισιά</placeName> στην <placeName>Έπαδα</placeName>
+                    <closer><salute>Σου εύχομαι καλές γιορτές
+                    <persName>Ζ. Λορεντζάτος</persName></salute>
+                    <dateline><placeName>Λεβίδου 23</placeName> 
+                    <placeName>Κηφισιά</placeName> στην <placeName>Έπαδα</placeName></dateline>
                     
-                </p> 
+                </closer>
             </div>
             
         </body>
