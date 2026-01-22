@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	           
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">	           
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -163,14 +166,14 @@
                 
                 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-3_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3.jpg?raw=true"/>
                 
-                <opener><placeName>Λεβίδου 23</placeName>,<placeName> Κηφισιά                                             </placeName>3 Δεκεμβρίου 1956
+                <opener><dateline><placeName>Λεβίδου 23</placeName>,<placeName> Κηφισιά                                             </placeName><date>3 Δεκεμβρίου 1956</date></dateline>
 </opener><opener>                    
-                    Αγαπητέ <persName>Λίνο</persName>,</opener>
+                  <salute> Αγαπητέ <persName>Λίνο</persName>,</salute></opener>
                     
                     <p>Υπάρχει κανένας τρόπος να έχει κανείς το πρωτότυπο των σολωμικών σημειωμάτων στους <title key="The Free Besieged" ref="http://www.wikidata.org/entity/Q7735196">Ελεύθερους Πολιορκημένους</title>; Σε ένα εντελώς άσχετο με το  <persName>Σολωμό</persName> φίλο θέλω να παραθέσω δύο τρία σημεία από τα σημειώματα αυτά όπως γράφτηκαν από αυτόν που τα έγραψε, και να έχει δίπλα (μέσα σε παρένθεση) τη γνωστή ελληνική καθιερωμένη μετάφραση του <persName>Πολυλά</persName>. Εσύ που είσαι μέσα στην υπόθεση μ έ σ α στην υπόθεση, θα μπορούσες με δυο λόγια να μας υποδείξεις τι [...];</p>  
                     <p>Θα σας χρωστάω μεγάλη χάρη. Ευχαριστώ.</p>
                     
-                   <closer> Με πολλή αγάπη, <persName>Ζ. Λορεντζάτος.</persName>
+                   <closer> <salute>Με πολλή αγάπη, <persName>Ζ. Λορεντζάτος.</persName></salute>
                    </closer>
             </div>
             
