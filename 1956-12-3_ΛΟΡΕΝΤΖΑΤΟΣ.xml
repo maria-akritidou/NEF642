@@ -5,13 +5,13 @@
                 <title>Επιστολή</title>
                 <author>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
+                        <forename/>
+                        <surname/>
                     </persName>
                 </author>
                 <respStmt>
                     <resp>Μεταγραφή και κωδικοποίηση TEI</resp>
-                    <name></name>
+                    <name/>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -21,16 +21,16 @@
                 <msDesc>
                     <msIdentifier>
                         <settlement>Αθήνα</settlement>
-                        <idno type="filename"></idno>
+                        <idno type="filename"/>
                     </msIdentifier>
                     <msContents>
-                        <summary></summary>
+                        <summary/>
                         <textLang mainLang="el">Ελληνικά</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc material="paper">
-                                <support></support>
+                                <support/>
                                 <extent>1 φύλλο</extent>
                             </supportDesc>
                             <layoutDesc>
@@ -45,23 +45,23 @@
                     </physDesc>
                 </msDesc>
                 <bibl>
-                    <orgName></orgName>
+                    <orgName/>
                     
                 </bibl>
             </sourceDesc>
         </fileDesc>
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
         
-        <profileDesc>
+        
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName></persName>
+                    <persName/>
                     <placeName>Αθήνα</placeName>
-                    <date when="1955-02-16"></date>
+                    <date when="1955-02-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName></persName>
+                    <persName/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -92,7 +92,7 @@
                     
                     Με πολλή αγάπη, <persName>Ζ. Λορεντζάτος.</persName>
                     
-                </p> 
+                </p><p>…</p><p>…</p> 
             </div>
             
         </body>
