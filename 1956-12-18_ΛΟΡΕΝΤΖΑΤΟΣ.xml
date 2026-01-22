@@ -385,6 +385,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml?person_annotation_20260122144437804",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-22T12:44:37.804Z",
+	"dcterms:modified": "2026-01-22T12:44:37.804Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/aikaioan3",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katerina Ioannou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml?person_annotation_20260122144437804#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-18_ΛΟΡΕΝΤΖΑΤΟΣ.xml?person_annotation_20260122144437804#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/salute/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/19830355",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -425,7 +504,7 @@
                     <p>Το να σου πω ευχαριστώ, είναι λίγο. Θα σας είμαι αληθινά υποχρεωμένος <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1956-12-18_%CE%9B%CE%9F%CE%A1%CE%95%CE%9D%CE%A4%CE%96%CE%91%CE%A4%CE%9F%CE%A3_Page_3.jpg?raw=true"/>και όχι για λογαριασμό ατομικό μου (αυτό δε θα είχε αξία), αλλά μόνο αυτή η βοήθειά σου —σχετικά με το ζήτημα των σολωμικών σημειωμάτων— με βγάζει λίγο από την ντροπή που αισθάνομαι να μιλάμε σήμερα “κρυφά” για τον<persName> Σολωμό</persName>.</p> 
                     
                     <closer><salute>Σου εύχομαι καλές γιορτές
-                    <persName>Ζ. Λορεντζάτος</persName></salute>
+                    <persName><persName key="Lorentzatos, Zēsimos" ref="http://viaf.org/viaf/19830355">Ζ. Λορεντζάτος</persName></persName></salute>
                     <dateline><placeName>Λεβίδου 23</placeName> 
                     <placeName>Κηφισιά</placeName> στην <placeName>Έπαδα</placeName></dateline>
                     
