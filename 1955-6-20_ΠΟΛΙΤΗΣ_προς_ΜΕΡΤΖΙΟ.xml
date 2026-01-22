@@ -1005,6 +1005,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-20_ΠΟΛΙΤΗΣ_προς_ΜΕΡΤΖΙΟ.xml?person_annotation_20260122141357557",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-22T12:13:57.557Z",
+	"dcterms:modified": "2026-01-22T12:13:57.557Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/despoinabeidari2003-star",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Despoina Beidari"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-20_ΠΟΛΙΤΗΣ_προς_ΜΕΡΤΖΙΟ.xml?person_annotation_20260122141357557#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-20_ΠΟΛΙΤΗΣ_προς_ΜΕΡΤΖΙΟ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1955-6-20_ΠΟΛΙΤΗΣ_προς_ΜΕΡΤΖΙΟ.xml?person_annotation_20260122141357557#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/213149066579065600000",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -1041,7 +1121,7 @@
                     <salute>Πολυσέβαστε και αγαπητέ μου Κύριε <persName><persName key="Mértzios, Kōnstantínos D., 1886-1971" ref="http://viaf.org/viaf/193011495" cert="high" type="real">Μέρτζιο</persName></persName>,</salute></opener>
                     
                     <p>Ο κ. <persName><persName key="Vasdravéllīs, ̓Iōánnīs K. 1900-1981" ref="http://viaf.org/viaf/92744907">Βασδραβέλλης</persName></persName> μου μετεβίβασε την επιστολή σας, είχα ιδέι όμως και προηγουμένως την ανακοίνωσή σας εις την <title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000" cert="high" level="j">«Καθημερινή»</title>. Δεν σας αποκρύπτω μάλιστα την συγκίνησή μου, όταν είδα τους τίτλους εις την επιστολή σας της <title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000">«Καθημερινής»</title> (είχε μάλιστα δημοσιευθεί και σε σημαντικότατη θέση, στην πρώτη σελίδα, δίπλα στα σπουδαιότερα ζητήματα της ημέρας). Αλλά πολύ απογοητεύθηκα όταν είδα ότι επρόκειτο για το γνωστό συμβόλαιο του <date><date when="1562">1561</date></date>, το δημοσιευμένο ήδη από τους <persName><persName key="Miklošič, Franc" ref="http://viaf.org/viaf/78772873" cert="high" type="real">Μίκλοσιχ</persName></persName> και <persName><persName key="Miller, Emmanuel, 1812-1886" ref="http://viaf.org/viaf/89292035" cert="medium">Μύλλερ</persName></persName>, και για το οποίο εμίλησαν πρώτος ο <persName><persName key="Sáthas, Konstantínos N. (1842-1914)." ref="http://viaf.org/viaf/51823381" cert="high" type="real">Σάθας</persName></persName> και τελευταίος ο <persName><persName key="Xanthoudidēs, Stephanos Antōniou, 1864-1928" ref="http://viaf.org/viaf/42200404">Ξανθουδίδης</persName></persName> εις την μνημειώδη του έκδοσιν. Με πολλή λύπη έκαμα ένα γράμμα στην «Καθημερινή», το οποίον όμως, έως τη στιγμή που σας γράφω δεν έχει δημοσιευθεί. Σκέφτηκα αν θα έπρεπε να γράψω δημόσια, διότι με κανένα λόγο δεν θα ήθελα τυχόν να σας δυσαρεστήσω. Τέτοιες παραλείψεις κάνουμε όλοι μας και η έλλειψις προσοχής σε ένα σημείο δεν ελαττώνει καθόλου το βάρος του κολοσσιαίου έργου που έχετε να επιδείξετε. Αλλά κατάλαβα πως θα απαντήσουν άλλοι, και ίσως μπλεχτεί το ζήτημα περισσότερο. Γιʼ αυτό νόμισα ότι είχα την υποχρέωση να γράψω στην <title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000" cert="high" level="j">«Καθημερινή»</title>. Παράλληλα ήθελα να σας γράψω και προσωπικώς. Να όμως που στο μεταξύ ήρθε το γράμμα σας και σας απαντώ σ' αυτό.</p>         <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1955-6-20_%CE%A0%CE%9F%CE%9B%CE%99%CE%A4%CE%97%CE%A3_%CF%80%CF%81%CE%BF%CF%82_%CE%9C%CE%95%CE%A1%CE%A4%CE%96%CE%99%CE%9F_%CE%B1%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_Page_2.jpg?raw=true"/>
-                    <p>Στο μεταξύ θα είδατε στην <title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000">«Καθημερινή»</title> της επομένης το κακό γράμμα του κ. <persName>Τωμαδάκη</persName>. Το χαρακτηρίζω κακό, γιατί είναι γραμμένο με κακία, της οποίας δεν μπορώ να βρω τον λόγο, εκτός αν τον έχετε κάποτε πειράξει σε καμία δική του αστοχία από τις πολλές που έχει διαπράξει. Δεν ξέρω αν θα το βάλει το δικό μου το γράμμα η «Καθημερινή» ύστερʼ από τα δύο που δημοσιεύτηκαν στο ίδιο θέμα. Θα ήθελα, μόνο και μόνο γιατί ενώ αποκαθιστά τα πράγματα μιλά με όλον τον σεβασμό για σας και για το έργο σας. Το ύφος του γράμματος <persName>Τωμαδάκη</persName> το θεωρώ εντελώς απαράδεκτο σε συζητήσεις καθαρώς φιλολογικές.</p>
+                    <p>Στο μεταξύ θα είδατε στην <title key="Εφημερίδα &amp;quot;Καθημερινή&amp;quot;" ref="http://viaf.org/viaf/490158790742638850000">«Καθημερινή»</title> της επομένης το κακό γράμμα του κ. <persName><persName key="Tōmadákīs, Nikólaos V., 1907-1993" ref="http://viaf.org/viaf/213149066579065600000" cert="high" type="real">Τωμαδάκη</persName></persName>. Το χαρακτηρίζω κακό, γιατί είναι γραμμένο με κακία, της οποίας δεν μπορώ να βρω τον λόγο, εκτός αν τον έχετε κάποτε πειράξει σε καμία δική του αστοχία από τις πολλές που έχει διαπράξει. Δεν ξέρω αν θα το βάλει το δικό μου το γράμμα η «Καθημερινή» ύστερʼ από τα δύο που δημοσιεύτηκαν στο ίδιο θέμα. Θα ήθελα, μόνο και μόνο γιατί ενώ αποκαθιστά τα πράγματα μιλά με όλον τον σεβασμό για σας και για το έργο σας. Το ύφος του γράμματος <persName>Τωμαδάκη</persName> το θεωρώ εντελώς απαράδεκτο σε συζητήσεις καθαρώς φιλολογικές.</p>
                     <p>Καταλαβαίνω τον ενθουσιασμό σας για την «ατομική βόμβα» που νομίσατε πως ανακαλύψατε, και καταλαβαίνω πως ο ενθουσιασμός αυτός σας παρέσυρε να βιαστείτε ν' ανακοινώσετε το πράγμα, ενώ και μόνο στον θαυμάσιο <persName>Ξανθουδίδη</persName> να ρίχνατε μια ματιά, θα βλέπατε αμέσως πως το στοιχείο αυτό ήταν γνωστό. Θυμούμαι ότι κάποτε άλλοτε εγλίτωσα έναν συνάδελφο από παρόμοια βιαστική ανακοίνωση· είχε βρει σε ανθολογίες ποιήματα προσγραφόμενα στον <persName>Σολωμό</persName> και νόμισε πως ανακάλυψε άγνωστα του ποιητού. Ήταν ποιήματα που οι ανθολογίες τ' απέδιδαν στον <persName>Σολωμό</persName>, ενώ πραγματικά ανήκαν σε άλλους ποιητάς.</p>
 <p>Ο <persName>Γκρεγκουάρ</persName> θα σας δημοσιεύσει τις παρατηρήσεις σας στα ελληνοαραβικά κείμενα; Θέλετε να τα γράψετε ελληνικά και να τα περάσουμε στα «Ελληνικά»; Πάντα περιμένουμε τη συνεργασία σας για τα «Ελληνικά». Σας έστειλα ανάτυπο της βιβλιογραφίας μου της νέας ελλην. φιλολογίας;</p> 
 <closer>                                             Με τιμή και σεβασμό</closer>
