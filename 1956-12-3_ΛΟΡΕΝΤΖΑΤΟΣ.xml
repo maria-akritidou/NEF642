@@ -53,7 +53,86 @@
         
         
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-3_ΛΟΡΕΝΤΖΑΤΟΣ.xml?work_annotation_20260122142833503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-22T12:28:33.503Z",
+	"dcterms:modified": "2026-01-22T12:28:33.503Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/maria-akritidou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Maria Akritidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-3_ΛΟΡΕΝΤΖΑΤΟΣ.xml?work_annotation_20260122142833503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-3_ΛΟΡΕΝΤΖΑΤΟΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1956-12-3_ΛΟΡΕΝΤΖΑΤΟΣ.xml?work_annotation_20260122142833503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q7735196",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName/>
@@ -88,7 +167,7 @@
 </opener><opener>                    
                     Αγαπητέ <persName>Λίνο</persName>,</opener>
                     
-                    <p>Υπάρχει κανένας τρόπος να έχει κανείς το πρωτότυπο των σολωμικών σημειωμάτων στους Ελεύθερους Πολιορκημένους; Σε ένα εντελώς άσχετο με το  <persName>Σολωμό</persName> φίλο θέλω να παραθέσω δύο τρία σημεία από τα σημειώματα αυτά όπως γράφτηκαν από αυτόν που τα έγραψε, και να έχει δίπλα (μέσα σε παρένθεση) τη γνωστή ελληνική καθιερωμένη μετάφραση του <persName>Πολυλά</persName>. Εσύ που είσαι μέσα στην υπόθεση μ έ σ α στην υπόθεση, θα μπορούσες με δυο λόγια να μας υποδείξεις τι [...];</p>  
+                    <p>Υπάρχει κανένας τρόπος να έχει κανείς το πρωτότυπο των σολωμικών σημειωμάτων στους <title key="The Free Besieged" ref="http://www.wikidata.org/entity/Q7735196">Ελεύθερους Πολιορκημένους</title>; Σε ένα εντελώς άσχετο με το  <persName>Σολωμό</persName> φίλο θέλω να παραθέσω δύο τρία σημεία από τα σημειώματα αυτά όπως γράφτηκαν από αυτόν που τα έγραψε, και να έχει δίπλα (μέσα σε παρένθεση) τη γνωστή ελληνική καθιερωμένη μετάφραση του <persName>Πολυλά</persName>. Εσύ που είσαι μέσα στην υπόθεση μ έ σ α στην υπόθεση, θα μπορούσες με δυο λόγια να μας υποδείξεις τι [...];</p>  
                     <p>Θα σας χρωστάω μεγάλη χάρη. Ευχαριστώ.</p>
                     
                    <closer> Με πολλή αγάπη, <persName>Ζ. Λορεντζάτος.</persName>
