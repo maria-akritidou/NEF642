@@ -53,7 +53,167 @@
         
         
         
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260122143933545",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-22T12:39:33.545Z",
+	"dcterms:modified": "2026-01-22T12:39:33.545Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mariettatzanidou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "marietta tzanidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260122143933545#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260122143933545#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/51818933",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260122143957012",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-22T12:39:57.012Z",
+	"dcterms:modified": "2026-01-22T12:39:57.012Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mariettatzanidou",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "marietta tzanidou"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260122143957012#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?person_annotation_20260122143957012#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[9]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/51818933",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName/>
@@ -91,7 +251,7 @@
                     Σεβαστέ μου <persName><persName key="Linos Politēs" ref="http://www.wikidata.org/entity/Q1826983" cert="high" type="real">κ. Καθηγητά</persName></persName>,</opener> <p>Απαντώ αμέσως μόλις πήρα το γράμμα σας. 1) Ο <persName>Schreiber</persName> έχει δίκαιο. Πράγματι, στη σελ[ίδα] 24 (Ζ 12, φ 10β) υπάρχουν δύο λέξεις- η μία στην άνω δεξιά γωνία και η άλλη στη μέση ακριβώς της σελίδας- που συνεχίζονται στη σελ[ίδα] 25 (Ζ 12, φ 11α). Αυτό μπορείτε ίσως να το διαπιστώσετε από τις μεταγραφές που έχετε μαζί σας (Έτοιμα, Α!). Νομίζω πως είναι απαραίτητο να τυπωθούν οι δύο αυτές λέξεις στη σελ[ίδα] 24 για να μην κοπούν, πράγμα που, όπως γράφει και ο <persName>Schreiber</persName>, είναι εύκολο και δυνατό να γίνει. Υποθέτω πως αυτό σας γράφει και για τη λέξη που βρίσκεται στη μέση της σελ[ίδας] 25· ό,τι κλείνω μέσα σε παρένθεση είναι τα γράμματα που συνεχίζονται στη σελ[ίδα] 25. Α) rugiada che sale alla forna(ce). Β) mar tutta e non voler l’ esis(tenga). Και οι δύο αυτοί στίχοι είναι μεταγενέστερες προσθήκες στα δίστιχα και αρχίζουν απ’ τη μέση της στήλης β. Ύστερα από τις πληροφορίες που σας δίνω, θεωρώ περιττό να σας στείλω και τις φωτογραφίες των σελ[ίδων] 24 και 25. Αν πάλι τις χρειάζεστε, γράψτε μου και σας τις στέλνω αμέσως.
                     2) Ο <persName>Schreiler</persName> ζητά επίσης από το τυπογρ[αφικό] φύλλο 22 τη σελ[ίδα] 16 (Ζ 11). Αρχίζει: και τι δουλειά εξανάρχισε κλπ. Αυτή τη σελ[ίδα] την ξαναφωτογαφήσαμε, αλλά έχω μόνο το αρνητικό, γιατί ο <persName>Ματσούκης</persName> στις δεύτερες αυτές φωτογραφήσεις δεν έκαμνε εμφανίσεις. Μου λείπει λοιπόν φωτογραφία απλή ή με χρωματικές ενδείξεις. Η ανάλογη φωτογραφία της μακέτας μας είναι από αυτές που βρίσκονται στου <persName>Κωνσταντινίδη</persName>- για αυτό και δεν μπορώ καν να σημειώσω και αριθμό σελίδας. Θα περάσω όμως από του <persName>Κωνσταντινίδη</persName> και θα δω. Χρειάζεται άραγε, αν γίνεται, να στείλω στον <persName>Schreiler</persName> και την παλιά φωτογραφία της μακέτας μας ή φτάνει μόνο το αρνητικό; 
                     3) Το ίδιο ισχύει και για τη σελ[ίδα] 399 του τυπ[ογραφικού] φύλλου 25 (Ζ 25, φ 6α ). Είναι ένα λευκό τº. Το υº του είναι αυτό που έχει τον τίτλο: η Ελιά η συνομήλικη (σ[ελίδα] 400). Έχω και εδώ μόνο το αρνητικό, φωτογραφημένο σωστά- έκανα έλεγχο των διαστάσεών του- χωρίς όμως φωτογραφίες. (Στη μακέτα μας η σελ[ίδα] 399 είναι λευκή, δεν είχε ληφθεί ποτέ φωτογραφία). Επομένως δεν μπορώ παρά να στείλω στον <persName>Schreiber</persName> μόνο τα δύο αυτά αρνητικά, σημειώνοντας τον αριθμό της σελίδας, για να μην καθυστερεί το τύπωμα. 
-                    Όσο για τις άλλες εκκρεμότητες, όλα πηγαίνουν καλά. Από την <abbr><orgName><orgName key="Εθνική Βιβλιοθήκη της Ελλάδος" ref="http://viaf.org/viaf/136996034" cert="high"/><orgName key="National Library of Greece" ref="http://www.wikidata.org/entity/Q1467610" cert="high">Εθν. Βιβλιοθήκη</orgName></orgName></abbr> πήρα τα δύο χφφ (Φ 92 και Φ 93) και τα παρέδωσε στην <orgName><orgName key="Bank of Greece" ref="http://www.wikidata.org/entity/Q806700" cert="high">Τράπεζα</orgName></orgName> για τις συμπληρωματικές φωτογραφήσεις. Αυτές τις μέρες θα πάρω μέσω <persName>Βρανούση</persName> και τα χφφ της <abbr><orgName><orgName key="Akadēmia Athēnōn" ref="http://viaf.org/viaf/144818098" cert="high">Ακ. Αθηνών</orgName></orgName></abbr> (δυστυχώς κανένα από τα χειρόγραφα της  <abbr><orgName key="Akadēmia Athēnōn" ref="http://viaf.org/viaf/144818098" cert="high"><orgName key="Akadēmia Athēnōn" ref="http://viaf.org/viaf/144818098" cert="high">ΑΑ</orgName></orgName></abbr> που βρίσκονται στην τράπεζα δεν είναι απ’ αυτά που μας χρειάζονται!). Ελπίζω λοιπόν πως έτσι θα ξεμπερδέψουμε οριστικά με το ζήτημα της φωτογράφησης και την ταλαιπωρία των σολωμικών χειρογράφων! Και κάτι ευχάριστο: ανάμεσα στις λεζάντες που έχω αφήσει στην <abbr><orgName><orgName key="National Library of Greece" ref="http://www.wikidata.org/entity/Q1467610">Εθν. Βιβλιοθήκη</orgName></orgName></abbr>, βρήκα και τη φωτογραφία του <persName>Schreiber</persName> που μας έλειπε (Ζ 9, 16, β, σελ[ίδα] 514). Δεν υπάρχει λόγος λοιπόν να ρωτήσετε τον <persName>Schreiber</persName> αν την έχει. Χρειαζόμαστε ακόμα, ύστερα από τις διάφορες ανατοποθετήσεις των φωτογραφιών, δυο-τρεις νέες λεζάντες. Να τις παραγγείλω στου <persName>Κωνσταντινίδη</persName> ή τις έχετε κιόλας παραγγείλει εσείς; Για οτιδήποτε άλλο θέλετε βρίσκομαι πάντα στη διάθεσή σας.
+                    Όσο για τις άλλες εκκρεμότητες, όλα πηγαίνουν καλά. Από την <abbr><orgName><orgName key="Εθνική Βιβλιοθήκη της Ελλάδος" ref="http://viaf.org/viaf/136996034" cert="high"/><orgName key="National Library of Greece" ref="http://www.wikidata.org/entity/Q1467610" cert="high">Εθν. Βιβλιοθήκη</orgName></orgName></abbr> πήρα τα δύο χφφ (Φ 92 και Φ 93) και τα παρέδωσε στην <orgName><orgName key="Bank of Greece" ref="http://www.wikidata.org/entity/Q806700" cert="high">Τράπεζα</orgName></orgName> για τις συμπληρωματικές φωτογραφήσεις. Αυτές τις μέρες θα πάρω μέσω <persName><persName key="Vranoúsīs, Léandros I., 1921-1993" ref="http://viaf.org/viaf/51818933" cert="high"/><persName key="Vranoúsīs, Léandros I., 1921-1993" ref="http://viaf.org/viaf/51818933" cert="high" type="real">Βρανούση</persName></persName> και τα χφφ της <abbr><orgName><orgName key="Akadēmia Athēnōn" ref="http://viaf.org/viaf/144818098" cert="high">Ακ. Αθηνών</orgName></orgName></abbr> (δυστυχώς κανένα από τα χειρόγραφα της  <abbr><orgName key="Akadēmia Athēnōn" ref="http://viaf.org/viaf/144818098" cert="high"><orgName key="Akadēmia Athēnōn" ref="http://viaf.org/viaf/144818098" cert="high">ΑΑ</orgName></orgName></abbr> που βρίσκονται στην τράπεζα δεν είναι απ’ αυτά που μας χρειάζονται!). Ελπίζω λοιπόν πως έτσι θα ξεμπερδέψουμε οριστικά με το ζήτημα της φωτογράφησης και την ταλαιπωρία των σολωμικών χειρογράφων! Και κάτι ευχάριστο: ανάμεσα στις λεζάντες που έχω αφήσει στην <abbr><orgName><orgName key="National Library of Greece" ref="http://www.wikidata.org/entity/Q1467610">Εθν. Βιβλιοθήκη</orgName></orgName></abbr>, βρήκα και τη φωτογραφία του <persName>Schreiber</persName> που μας έλειπε (Ζ 9, 16, β, σελ[ίδα] 514). Δεν υπάρχει λόγος λοιπόν να ρωτήσετε τον <persName>Schreiber</persName> αν την έχει. Χρειαζόμαστε ακόμα, ύστερα από τις διάφορες ανατοποθετήσεις των φωτογραφιών, δυο-τρεις νέες λεζάντες. Να τις παραγγείλω στου <persName>Κωνσταντινίδη</persName> ή τις έχετε κιόλας παραγγείλει εσείς; Για οτιδήποτε άλλο θέλετε βρίσκομαι πάντα στη διάθεσή σας.
                     Την επομένη της αναχωρήσεώς σας έλαβα τα δύο αντίγραφα του Καταστατικού της <orgName>«Διεθνούς Εταιρείας Νεοελληνικών Σπουδών»</orgName>, τα οποία και παρέδωσα στον <persName><persName key="Dīmarás, Kōnstantínos Th 1904-1992" ref="http://viaf.org/viaf/110457098" cert="high" type="real">κ. Δημαρά</persName></persName>.
                     Εδώ το <orgName><orgName key="Institouto Historikōn Ereunōn. Tomeas Neoellēnikōn Ereunōn" ref="http://viaf.org/viaf/34145003689861340000" cert="high">ΚΝΕ</orgName></orgName> μας όλο καλά· συνεχίζει εντατικά τη δουλειά του.</p><p><closer> Τους χαιρετισμούς μου στη  <persName>Μαρία</persName>, <persName>Ειρήνη</persName>, <persName>Ελένη Κακουλίδη</persName> και <persName>Λεάνη</persName>. Μόλις χτες έμαθα ότι η 
                     <persName>Εριφύλλη Σαμουηλίδου</persName> αρραβωνιάστηκε με κάποιον συνάδελφό της από του <persName>Γεωργακά</persName> κι΄έφυγε μαζί του για την <placeName><placeName key="Cyprus" ref="http://viaf.org/viaf/1146217595809141400" cert="high">Κύπρο<precision match="@ref" precision="high"/></placeName></placeName> για να δουλέψουν εκεί. Με σεβασμό κι' αγάπη <persName><persName key="Panagiotis Mullas" ref="http://www.wikidata.org/entity/Q1435235" cert="high" type="real">Παναγιώτης</persName></persName></closer></p>
