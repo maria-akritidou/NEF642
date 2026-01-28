@@ -165,7 +165,7 @@
 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1961_10_15_%CE%9C%CE%9F%CE%A5%CE%9B%CE%9B%CE%91%CE%A3_Page_1.jpg?raw=true"/>
                 
  <opener>
-                   <placeName key="Athens" ref="https://sws.geonames.org/264371" cert="high">Αθήνα, </placeName><date when="1961-10-05" cert="high">5-10-61</date>
+                   <placeName cert="high" key="Athens" ref="https://sws.geonames.org/264371">Αθήνα, </placeName><date when="1961-10-05" cert="high">5-10-61</date>
 
 				   <salute>
                     Σεβαστέ μου κ. <persName key="Linos Politēs" ref="http://www.wikidata.org/entity/Q1826983" cert="high" type="real">Καθηγητά</persName>,</salute>
