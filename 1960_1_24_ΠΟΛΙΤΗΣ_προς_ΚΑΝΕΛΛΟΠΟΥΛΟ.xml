@@ -876,6 +876,7 @@
 	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125439878",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-22T10:54:39.878Z",
+	"dcterms:modified": "2026-01-22T10:54:39.878Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/EleniTsitsi",
 		"@type": [
@@ -902,7 +903,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125439878#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[3]/persName[3]"
+			"rdf:value": "TEI/text/body/div/p[3]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -1033,6 +1034,7 @@
 	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125532344",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-22T10:55:32.344Z",
+	"dcterms:modified": "2026-01-22T10:55:32.344Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/EleniTsitsi",
 		"@type": [
@@ -1059,7 +1061,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125532344#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[3]/persName[4]"
+			"rdf:value": "TEI/text/body/div/p[3]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -1190,6 +1192,7 @@
 	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125706651",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-22T10:57:06.651Z",
+	"dcterms:modified": "2026-01-22T10:57:06.651Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/EleniTsitsi",
 		"@type": [
@@ -1216,7 +1219,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125706651#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[3]/persName[5]"
+			"rdf:value": "TEI/text/body/div/p[3]/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -1268,6 +1271,7 @@
 	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125846515",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-22T10:58:46.515Z",
+	"dcterms:modified": "2026-01-22T10:58:46.515Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/EleniTsitsi",
 		"@type": [
@@ -1294,7 +1298,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260122125846515#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[3]/persName[6]"
+			"rdf:value": "TEI/text/body/div/p[3]/persName[7]"
 		}
 	},
 	"oa:hasBody": {
@@ -2654,6 +2658,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260129104027869",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-01-29T08:40:27.869Z",
+	"dcterms:modified": "2026-01-29T08:40:27.869Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/EleniTsitsi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eleni Tsitsi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260129104027869#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1960_1_24_ΠΟΛΙΤΗΣ_προς_ΚΑΝΕΛΛΟΠΟΥΛΟ.xml?person_annotation_20260129104027869#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/24680191",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -2695,7 +2778,7 @@
                     <p>                    Στις γιορτές που ήμουν κάτω στην <placeName key="Athens" ref="http://www.wikidata.org/entity/Q1524">Αθήνα</placeName> εζήτησα να σε συναντήσω, οι πολλές όμως δουλειές που είχες σχετικά με το προσεχές σου τότε ταξίδι στη <placeName key="Germany" ref="http://www.wikidata.org/entity/Q183">Γερμανία</placeName> δεν σου άφησαν προφανώς χρόνο στη διάθεσή σου. Να με συγχωρήσεις λοιπόν αν θα σε απασχολήσω σήμερα με το γράμμα τούτο για τρία σημαντικά, νομίζω, ζητήματα. </p>
 					
 					<p>                    α) Για το ζήτημα των χειρογράφων του <persName key="Solōmós, Dionýsios, 1798-1857" ref="http://viaf.org/viaf/17235346">Σολωμού</persName> η <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403">Ακαδημία</orgName>, καθώς βέβαια θα ξέρεις, πήρε την απόφαση πως δεν μπορεί να επιτρέψει να ταξιδέψουν στο εξωτερικό (αυτό που ζητούσαμε, για να γίνει η έκδοση στη <placeName key="Stuttgart" ref="http://viaf.org/viaf/286152140015811100000">Στουτγκαρτ</placeName> άψογη από άποψη της πανομοιότυπης παρουσίασης). Η απόφαση αυτή της <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403">Ακαδημίας</orgName> βέβαια δύσκολα πια αλλάζει, στην <placeName key="Athens" ref="https://sws.geonames.org/264371">Αθήνα</placeName> όμως ήρθα σ’ επαφή με τεχνικούς καθώς και με την <orgName key="Bank of Greece" ref="http://www.wikidata.org/entity/Q806700">Τράπεζα της Ελλάδος</orgName> και καταλήξαμε στη λύση να γίνουν εδώ (στην Τράπεζα) οι φωτογραφίες και στη <placeName key="Germany" ref="http://www.wikidata.org/entity/Q183">Γερμανία</placeName> η εκτύπωση η φωτοτυπική. Σ’ αυτό δεν πιστεύω να έχει αντίρρηση η <orgName key="Academy of Athens" ref="http://www.wikidata.org/entity/Q414403">Ακαδημία</orgName>! Το μόνο δυσάρεστο είναι ότι έχασα με την αργοπορία αυτή ένα κονδύλι 150.000 δρ. που ήταν αναγεγραμμένο στον προϋπολογισμό του 1959 του Πανεπιστημίου. Αλλά για ένα τέτοιο έργο πιστεύω πως δεν θα είναι δύσκολο να βρω ένα αντίστοιχο ποσόν από κάπου - και εδώ θα ήθελα τη βοήθειά σου, αν χρειαστεί, ή τη συμβουλή σου πως πρέπει να ενεργήσω. </p>
-					<p>                    β) Το Πάσχα θα γίνει στο <placeName key="Paris" ref="https://sws.geonames.org/2988507">Παρίσι</placeName> το Α’ Συνέδριο Νεοελληνικών Σπουδών. Πρόεδρος του Συνεδρίου είναι ο Πρεσβευτής μας, στην Επιτροπή και ο κ. <persName key="Averof-Tositsas, Evangelos, 1910-1990" ref="http://viaf.org/viaf/29529479">Αβέρωφ</persName>, μορφωτικός ακόλουθος. Στην Τιμητική Επιτροπή προσωπικότητες όπως ο <persName key="Pierre Chantraine" ref="http://www.wikidata.org/entity/Q2093337">Σαντραίν</persName>, Πλασσάρ κ.ά. Παρόλα ταύτα σε συζητήσεις και συσκέψεις που είχα κατά την παραμονή μου στην Αθήνα με τον Γεν. Γραμματέα του Υπουργείου της Παιδείας κ. <persName key="Nikolaos I. Karmirēs" ref="http://www.wikidata.org/entity/Q19409995">Ν. Καρμίρη</persName> είδα ότι υπάρχει μια δυσπιστία εναντίον αυτού του Συνεδρίου, επειδή είχε προηγηθεί ένα είδος Κονφερέντς Νεοελληνικής στο <placeName key="Berlin (Ost)" ref="http://viaf.org/viaf/142472483">Ανατολικό Βερολίνο</placeName> το 1957. Ο κ. <persName key="Nikolaos I. Karmirēs" ref="http://www.wikidata.org/entity/Q19409995">Καρμίρης</persName> μας έλεγε πως εκφράζει και τις γνώμες της Κυβερνήσεως, σε ρητή όμως ερώτησή μου γι’ αυτό μου απάντησε μάλλον επιφυλακτικά. Δεν φαντάζομαι να είναι πολιτική επίσημη της Κυβερνήσεως, αντί ν’ αγκαλιάσουμε μια ευκαιρία που μας δίνεται για την προβολή των νεοελληνικών σπουδών και επομένως και της <placeName key="Greece" ref="http://www.wikidata.org/entity/Q41">Ελλάδας</placeName> σε διεθνή πλαίσια, να προσηλωνόμαστε σε μια στενόκαρδη “χωροφυλακίστικη” πολιτική - κι’ αυτό σε μια εποχή που ο <persName key="Eisenhower, Dwight D. (Dwight David), 1890-1969" ref="http://viaf.org/viaf/100176316">Αϊζενχάουερ</persName> πάει στη <placeName key="Moscow" ref="https://sws.geonames.org/524901">Μόσχα</placeName> και ο <persName key="Khrushchev, Nikita Sergeevich, 1894-1971" ref="http://viaf.org/viaf/64007537">Κρούστσεφ</persName> στην <placeName key="United States" ref="http://www.wikidata.org/entity/Q30">Αμερική</placeName>! Φυσικά αυτά δεν συζητούνται με γράμματα, θα ήθελα όμως να είσαι εν γνώσει του τι μας έλεγε ο Γενικός Γραμματεύς. Αν ήθελες, θα μπορούσες ν’ αναλάβεις υπεύθυνα το όλο ζήτημα και να χαράξεις τη γραμμή που πρέπει. </p>
+					<p>                    β) Το Πάσχα θα γίνει στο <placeName key="Paris" ref="https://sws.geonames.org/2988507">Παρίσι</placeName> το Α’ Συνέδριο Νεοελληνικών Σπουδών. Πρόεδρος του Συνεδρίου είναι ο Πρεσβευτής μας, στην Επιτροπή και ο κ. <persName key="Averof-Tositsas, Evangelos, 1910-1990" ref="http://viaf.org/viaf/29529479">Αβέρωφ</persName>, μορφωτικός ακόλουθος. Στην Τιμητική Επιτροπή προσωπικότητες όπως ο <persName key="Pierre Chantraine" ref="http://www.wikidata.org/entity/Q2093337">Σαντραίν</persName>, <persName key="Plassart, André." ref="http://viaf.org/viaf/24680191">Πλασσάρ</persName> κ.ά. Παρόλα ταύτα σε συζητήσεις και συσκέψεις που είχα κατά την παραμονή μου στην Αθήνα με τον Γεν. Γραμματέα του Υπουργείου της Παιδείας κ. <persName key="Nikolaos I. Karmirēs" ref="http://www.wikidata.org/entity/Q19409995">Ν. Καρμίρη</persName> είδα ότι υπάρχει μια δυσπιστία εναντίον αυτού του Συνεδρίου, επειδή είχε προηγηθεί ένα είδος Κονφερέντς Νεοελληνικής στο <placeName key="Berlin (Ost)" ref="http://viaf.org/viaf/142472483">Ανατολικό Βερολίνο</placeName> το 1957. Ο κ. <persName key="Nikolaos I. Karmirēs" ref="http://www.wikidata.org/entity/Q19409995">Καρμίρης</persName> μας έλεγε πως εκφράζει και τις γνώμες της Κυβερνήσεως, σε ρητή όμως ερώτησή μου γι’ αυτό μου απάντησε μάλλον επιφυλακτικά. Δεν φαντάζομαι να είναι πολιτική επίσημη της Κυβερνήσεως, αντί ν’ αγκαλιάσουμε μια ευκαιρία που μας δίνεται για την προβολή των νεοελληνικών σπουδών και επομένως και της <placeName key="Greece" ref="http://www.wikidata.org/entity/Q41">Ελλάδας</placeName> σε διεθνή πλαίσια, να προσηλωνόμαστε σε μια στενόκαρδη “χωροφυλακίστικη” πολιτική - κι’ αυτό σε μια εποχή που ο <persName key="Eisenhower, Dwight D. (Dwight David), 1890-1969" ref="http://viaf.org/viaf/100176316">Αϊζενχάουερ</persName> πάει στη <placeName key="Moscow" ref="https://sws.geonames.org/524901">Μόσχα</placeName> και ο <persName key="Khrushchev, Nikita Sergeevich, 1894-1971" ref="http://viaf.org/viaf/64007537">Κρούστσεφ</persName> στην <placeName key="United States" ref="http://www.wikidata.org/entity/Q30">Αμερική</placeName>! Φυσικά αυτά δεν συζητούνται με γράμματα, θα ήθελα όμως να είσαι εν γνώσει του τι μας έλεγε ο Γενικός Γραμματεύς. Αν ήθελες, θα μπορούσες ν’ αναλάβεις υπεύθυνα το όλο ζήτημα και να χαράξεις τη γραμμή που πρέπει. </p>
 					<p>                    Συνδεδεμένο με το Συνέδριο είναι και το ζήτημα της ιδρύσεως μιας Διεθνούς Εταιρείας Νεοελληνικών Σπουδών. Έχουν ήδη οριστεί ιδρυτικά μέλη (είχε γίνει μια σύσκεψη το 1958 στη <placeName key="Geneva" ref="http://www.wikidata.org/entity/Q71">Γενεύη</placeName>, όπου είχα πάει κι εγώ), 2 επιστήμονες νεοελληνιστές από κάθε κράτος και κατ’ εξαίρεση 5 από την <placeName key="Greece" ref="http://www.wikidata.org/entity/Q41">Ελλάδα</placeName>. Αυτή την Εταιρεία την φοβάται ο Γενικός περισσότερο, γιατί δεν ξέρω. Κι αυτή είναι μια ευκαιρία προβολής του νεοελληνικού. Υπάρχουν και αντιπρόσωποι του “ανατολικού” μπλοκ, λίγοι, αλλά υπάρχουν πολύ περισσότεροι οι “δυτικοί”. Κι επιτέλους δεν πρέπει να το πάρουμε απόφαση πω[ς] 
                     <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1960_1_24_%CE%A0%CE%9F%CE%9B%CE%99%CE%A4%CE%97%CE%A3_%CF%80%CF%81%CE%BF%CF%82_%CE%9A%CE%91%CE%9D%CE%95%CE%9B%CE%9B%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F_%20%CE%B1%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_Page_2.jpg?raw=true"/> 
 					σε διεθνείς συναντήσεις θα υπάρχουν και “ανατολικοί”; Μπορούμε να τους εξοντώσουμε; Τέλος πάντων, το ζήτημα της Εταιρείας δεν χρειάζεται κανένα “πατρονάρισμα” εκ μέρους του Κράτους. Εκείνο που είναι απαραίτητο είναι το Κράτος να εκπροσωπηθεί στο Συνέδριο όπως πρέπει (ήδη από το <orgName key="Aristotle University of Thessaloniki" ref="http://www.wikidata.org/entity/Q667568">Πανεπιστήμιο Θεσσαλονίκης</orgName> υποδείξαμε δύο καθηγητάς για να οριστούν κρατικοί αντιπρόσωποι, όπως συμβαίνει συνήθως), και προπάντων να έχουμε τη ρητή υπόσχεση της Κυβερνήσεως, για να προτείνουμε τη σύγκληση του Β΄ συνεδρίου στην <placeName key="Athens" ref="http://www.wikidata.org/entity/Q1524">Αθήνα</placeName>. </p>
