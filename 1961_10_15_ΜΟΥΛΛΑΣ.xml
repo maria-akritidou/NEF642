@@ -1045,7 +1045,6 @@
 	"id": "https://raw.githubusercontent.com/maria-akritidou/NEF642/main/1961_10_15_ΜΟΥΛΛΑΣ.xml?place_annotation_20260129125929218",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-29T10:59:29.218Z",
-	"dcterms:modified": "2026-01-29T10:59:29.218Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/mariettatzanidou",
 		"@type": [
@@ -1074,7 +1073,7 @@
 			"@type": "oa:RangeSelector",
 			"oa:hasStartSelector": {
 				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/opener/placeName"
+				"rdf:value": "TEI/text/body/div/opener/placeName/placeName"
 			},
 			"oa:hasEndSelector": {
 				"@type": "oa:XPathSelector",
@@ -1099,8 +1098,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.9.0"
 	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1216,7 +1214,7 @@
 <pb facs="https://github.com/maria-akritidou/NEF642/blob/main/1961_10_15_%CE%9C%CE%9F%CE%A5%CE%9B%CE%9B%CE%91%CE%A3_Page_1.jpg?raw=true"/>
                 
  <opener>
-                  <placeName key="Athens" ref="https://sws.geonames.org/264371"><placeName key="Athens" ref="http://www.wikidata.org/entity/Q1524" cert="high">Αθήνα<precision match="@ref" precision="high"/></placeName>,</placeName> <date when="1961-10-05" cert="high">5-10-61</date>
+                  <placeName key="Athens" ref="https://sws.geonames.org/264371"><placeName key="Athens" ref="http://www.wikidata.org/entity/Q1524" cert="high">Αθήνα</placeName>,</placeName> <date when="1961-10-05" cert="high">5-10-61</date>
 
 				   <salute>
                     Σεβαστέ μου κ. <persName key="Politēs, Linos, 1906-1982" ref="http://viaf.org/viaf/117521517">Καθηγητά</persName>,</salute>
